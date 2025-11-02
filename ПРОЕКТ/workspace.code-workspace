@@ -1,3 +1,3614 @@
+вокзалаль»
 {
-	"folders": []
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Київська область",
+    "type": "oblast",
+    "code": "UA-32",
+    "cities": [
+      {
+        "name": "Біла Церква",
+        "type": "city",
+        "population": 210000,
+        "gps": { "lat": 49.790, "lon": 30.115 },
+        "railway_stations": [
+          {
+            "name": "Біла Церква",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 49.791, "lon": 30.117 }
+          }
+        ]
+      },
+      {
+        "name": "Бровари",
+        "type": "city",
+        "population": 102000,
+        "gps": { "lat": 50.512, "lon": 30.786 },
+        "railway_stations": [
+          {
+            "name": "Бровари",
+            "type": "пасажирський",
+            "address": "вул. Гагаріна, 2",
+            "gps": { "lat": 50.513, "lon": 30.789 }
+          }
+        ]
+      },
+      {
+        "name": "Бориспіль",
+        "type": "city",
+        "population": 61000,
+        "gps": { "lat": 50.345, "lon": 30.956 },
+        "railway_stations": [
+          {
+            "name": "Бориспіль",
+            "type": "пасажирський",
+            "address": "вул. Льотна / залізнична платформа",
+            "gps": { "lat": 50.343, "lon": 30.958 }
+          }
+        ]
+      },
+      {
+        "name": "Фастів",
+        "type": "city",
+        "population": 46000,
+        "gps": { "lat": 50.073, "lon": 29.905 },
+        "railway_stations": [
+          {
+            "name": "Фастів",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Вокзальна, 1",
+            "gps": { "lat": 50.074, "lon": 29.904 }
+          },
+          {
+            "name": "Фастів-ІІ (пологи)",
+            "type": "вантажний",
+            "address": null,
+            "gps": null
+          }
+        ]
+      },
+      {
+        "name": "Ірпінь",
+        "type": "city",
+        "population": 61000,
+        "gps": { "lat": 50.521, "lon": 30.255 },
+        "railway_stations": [
+          {
+            "name": "Ірпінь",
+            "type": "пасажирський",
+            "address": "вул. Центральна",
+            "gps": { "lat": 50.520, "lon": 30.257 }
+          }
+        ]
+      },
+      {
+        "name": "Васильків",
+        "type": "city",
+        "population": 35000,
+        "gps": { "lat": 49.983, "lon": 30.403 },
+        "railway_stations": [
+          {
+            "name": "Васильків-1",
+            "type": "пасажирський",
+            "address": "вул. Привокзальна",
+            "gps": { "lat": 49.984, "lon": 30.405 }
+          }
+        ]
+      },
+      {
+        "name": "Обухів",
+        "type": "city",
+        "population": 33000,
+        "gps": { "lat": 50.083, "lon": 30.483 },
+        "railway_stations": [
+          {
+            "name": "Обухів",
+            "type": "пасажирський",
+            "address": "вул. Вокзальна",
+            "gps": { "lat": 50.084, "lon": 30.485 }
+          }
+        ]
+      },
+      {
+        "name": "Переяслав (Переяслав-Хмельницький)",
+        "type": "city",
+        "population": 28000,
+        "gps": { "lat": 50.070, "lon": 31.449 },
+        "railway_stations": [
+          {
+            "name": "Переяслав",
+            "type": "пасажирський",
+            "address": null,
+            "gps": { "lat": 50.071, "lon": 31.452 }
+          }
+        ]
+      },
+      {
+        "name": "Миронівка",
+        "type": "city",
+        "population": 11000,
+        "gps": { "lat": 49.946, "lon": 30.908 },
+        "railway_stations": [
+          {
+            "name": "Миронівка",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Залізнична",
+            "gps": { "lat": 49.946, "lon": 30.909 }
+          }
+        ]
+      },
+      {
+        "name": "Яготин",
+        "type": "city",
+        "population": 17000,
+        "gps": { "lat": 50.353, "lon": 31.809 },
+        "railway_stations": [
+          {
+            "name": "Яготин",
+            "type": "пасажирський",
+            "address": "вул. Станційна",
+            "gps": { "lat": 50.354, "lon": 31.810 }
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+дороги
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Київська область",
+    "type": "oblast",
+    "code": "UA-32",
+    "cities": [
+      {
+        "name": "Бровари",
+        "type": "city",
+        "population": 102000,
+        "gps": { "lat": 50.512, "lon": 30.786 },
+        "railway_stations": [
+          {
+            "name": "Бровари",
+            "type": "пасажирський",
+            "address": "вул. Гагаріна, 2",
+            "gps": { "lat": 50.513, "lon": 30.789 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Гагаріна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 50.508, "lon": 30.780 },
+            "end_gps": { "lat": 50.518, "lon": 30.794 },
+            "length_km": 2.1,
+            "surface": "асфальт",
+            "lanes": 2
+          },
+          {
+            "name": "просп. Перемоги",
+            "type": "avenue",
+            "classification": "regional",
+            "start_gps": { "lat": 50.510, "lon": 30.770 },
+            "end_gps": { "lat": 50.520, "lon": 30.800 },
+            "length_km": 3.4,
+            "surface": "асфальт",
+            "lanes": 4
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Гагаріна", "number": "2" },
+            "type": "apartment_building",
+            "construction_year": 1988,
+            "floors": 5,
+            "apartments_count": 20,
+            "gps": { "lat": 50.5130, "lon": 30.7890 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 2, "area_m2": 48.0, "residents": 3, "status": "occupied" },
+              { "number": "2", "floor": 1, "rooms": 1, "area_m2": 32.5, "residents": 1, "status": "occupied" },
+              { "number": "15", "floor": 4, "rooms": 3, "area_m2": 72.0, "residents": 4, "status": "occupied" }
+            ]
+          },
+          {
+            "address": { "street": "просп. Перемоги", "number": "10A" },
+            "type": "apartment_building",
+            "construction_year": 2006,
+            "floors": 9,
+            "apartments_count": 72,
+            "gps": { "lat": 50.5160, "lon": 30.7920 },
+            "apartments": [
+              { "number": "12", "floor": 2, "rooms": 2, "area_m2": 54.0, "residents": 2, "status": "occupied" },
+              { "number": "58", "floor": 7, "rooms": 1, "area_m2": 36.0, "residents": 1, "status": "vacant" }
+            ]
+          },
+          {
+            "address": { "street": "вул. Польова", "number": "5" },
+            "type": "private_house",
+            "construction_year": 1995,
+            "floors": 2,
+            "apartments_count": 1,
+            "gps": { "lat": 50.5110, "lon": 30.7830 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 4, "area_m2": 120.0, "residents": 4, "status": "occupied" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Біла Церква",
+        "type": "city",
+        "population": 210000,
+        "gps": { "lat": 49.790, "lon": 30.115 },
+        "railway_stations": [
+          {
+            "name": "Біла Церква",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 49.791, "lon": 30.117 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Ярослава Мудрого",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.788, "lon": 30.110 },
+            "end_gps": { "lat": 49.795, "lon": 30.120 },
+            "length_km": 1.8,
+            "surface": "асфальт",
+            "lanes": 2
+          },
+          {
+            "name": "бул. Олександрійський",
+            "type": "boulevard",
+            "classification": "urban",
+            "start_gps": { "lat": 49.789, "lon": 30.112 },
+            "end_gps": { "lat": 49.793, "lon": 30.118 },
+            "length_km": 1.2,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Ярослава Мудрого", "number": "10" },
+            "type": "apartment_building",
+            "construction_year": 1975,
+            "floors": 9,
+            "apartments_count": 45,
+            "gps": { "lat": 49.7920, "lon": 30.1160 },
+            "apartments": [
+              { "number": "3", "floor": 1, "rooms": 1, "area_m2": 30.5, "residents": 1, "status": "occupied" },
+              { "number": "27", "floor": 7, "rooms": 3, "area_m2": 68.0, "residents": 3, "status": "occupied" }
+            ]
+          },
+          {
+            "address": { "street": "бул. Олександрійський", "number": "4B" },
+            "type": "apartment_building",
+            "construction_year": 2012,
+            "floors": 7,
+            "apartments_count": 28,
+            "gps": { "lat": 49.7915, "lon": 30.1145 },
+            "apartments": [
+              { "number": "5", "floor": 1, "rooms": 2, "area_m2": 50.0, "residents": 2, "status": "occupied" },
+              { "number": "22", "floor": 6, "rooms": 2, "area_m2": 55.0, "residents": 2, "status": "vacant" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ірпінь",
+        "type": "city",
+        "population": 61000,
+        "gps": { "lat": 50.521, "lon": 30.255 },
+        "railway_stations": [
+          {
+            "name": "Ірпінь",
+            "type": "пасажирський",
+            "address": "вул. Центральна",
+            "gps": { "lat": 50.520, "lon": 30.257 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Центральна",
+            "type": "street",
+            "classification": "urban",
+            "start_gps": { "lat": 50.518, "lon": 30.250 },
+            "end_gps": { "lat": 50.525, "lon": 30.260 },
+            "length_km": 1.6,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Центральна", "number": "1" },
+            "type": "mixed_use",
+            "construction_year": 2000,
+            "floors": 5,
+            "apartments_count": 10,
+            "gps": { "lat": 50.5205, "lon": 30.2575 },
+            "apartments": [
+              { "number": "1A", "floor": 1, "rooms": 1, "area_m2": 34.0, "residents": 1, "status": "occupied" },
+              { "number": "8", "floor": 4, "rooms": 3, "area_m2": 80.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Фастів",
+        "type": "city",
+        "population": 46000,
+        "gps": { "lat": 50.073, "lon": 29.905 },
+        "railway_stations": [
+          {
+            "name": "Фастів",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Вокзальна, 1",
+            "gps": { "lat": 50.074, "lon": 29.904 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Вокзальна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 50.072, "lon": 29.900 },
+            "end_gps": { "lat": 50.076, "lon": 29.908 },
+            "length_km": 0.9,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Вокзальна", "number": "1" },
+            "type": "public_transport_hub",
+            "construction_year": 1960,
+            "floors": 2,
+            "apartments_count": 0,
+            "gps": { "lat": 50.0740, "lon": 29.9040 },
+            "apartments": []
+          },
+          {
+            "address": { "street": "вул. Вокзальна", "number": "3" },
+            "type": "apartment_building",
+            "construction_year": 1980,
+            "floors": 5,
+            "apartments_count": 25,
+            "gps": { "lat": 50.0750, "lon": 29.9055 },
+            "apartments": [
+              { "number": "2", "floor": 1, "rooms": 2, "area_m2": 45.0, "residents": 2, "status": "occupied" },
+              { "number": "20", "floor": 5, "rooms": 3, "area_m2": 70.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+міста
+
+  "country": "Україна",
+  "iso": "UA",
+  "description": "Базова структура всіх області/регіонів України (2020 — регіональний список). Поля districts і cities залишені порожніми як заповнювачі для подальшого розгортання до районів/населених пунктів.",
+  "regions": [
+    { "name": "Вінницька область", "type": "oblast", "code": null, "admin_center": "Вінниця", "districts": [] },
+    { "name": "Волинська область", "type": "oblast", "code": null, "admin_center": "Луцьк", "districts": [] },
+    { "name": "Дніпропетровська область", "type": "oblast", "code": null, "admin_center": "Дніпро", "districts": [] },
+    { "name": "Донецька область", "type": "oblast", "code": null, "admin_center": "Донецьк", "districts": [] },
+    { "name": "Житомирська область", "type": "oblast", "code": null, "admin_center": "Житомир", "districts": [] },
+    { "name": "Закарпатська область", "type": "oblast", "code": null, "admin_center": "Ужгород", "districts": [] },
+    { "name": "Запорізька область", "type": "oblast", "code": null, "admin_center": "Запоріжжя", "districts": [] },
+    { "name": "Івано-Франківська область", "type": "oblast", "code": null, "admin_center": "Івано-Франківськ", "districts": [] },
+    { "name": "Київська область", "type": "oblast", "code": null, "admin_center": "Київ", "districts": [] },
+    { "name": "Кіровоградська область", "type": "oblast", "code": null, "admin_center": "Кропивницький", "districts": [] },
+    { "name": "Луганська область", "type": "oblast", "code": null, "admin_center": "Луганськ", "districts": [] },
+    { "name": "Львівська область", "type": "oblast", "code": null, "admin_center": "Львів", "districts": [] },
+    { "name": "Миколаївська область", "type": "oblast", "code": null, "admin_center": "Миколаїв", "districts": [] },
+    { "name": "Одеська область", "type": "oblast", "code": null, "admin_center": "Одеса", "districts": [] },
+    { "name": "Полтавська область", "type": "oblast", "code": null, "admin_center": "Полтава", "districts": [] },
+    { "name": "Рівненська область", "type": "oblast", "code": null, "admin_center": "Рівне", "districts": [] },
+    { "name": "Сумська область", "type": "oblast", "code": null, "admin_center": "Суми", "districts": [] },
+    { "name": "Тернопільська область", "type": "oblast", "code": null, "admin_center": "Тернопіль", "districts": [] },
+    { "name": "Харківська область", "type": "oblast", "code": null, "admin_center": "Харків", "districts": [] },
+    { "name": "Херсонська область", "type": "oblast", "code": null, "admin_center": "Херсон", "districts": [] },
+    { "name": "Хмельницька область", "type": "oblast", "code": null, "admin_center": "Хмельницький", "districts": [] },
+    { "name": "Черкаська область", "type": "oblast", "code": null, "admin_center": "Черкаси", "districts": [] },
+    { "name": "Чернівецька область", "type": "oblast", "code": null, "admin_center": "Чернівці", "districts": [] },
+    { "name": "Чернігівська область", "type": "oblast", "code": null, "admin_center": "Чернігів", "districts": [] },
+    { "name": "Автономна Республіка Крим", "type": "autonomous_republic", "code": null, "admin_center": "Сімферополь", "districts": [] },
+    { "name": "м. Київ (місто зі спеціальним статусом)", "type": "city", "code": null, "admin_center": "Київ", "districts": [] },
+    { "name": "м. Севастополь (місто зі спеціальним статусом)", "type": "city", "code": null, "admin_center": "Севастополь", "districts": [] }
+  ]
+}
+магазини 
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Київська область",
+    "type": "oblast",
+    "code": "UA-32",
+    "cities": [
+      {
+        "name": "Бровари",
+        "type": "city",
+        "population": 102000,
+        "gps": { "lat": 50.512, "lon": 30.786 },
+        "railway_stations": [
+          {
+            "name": "Бровари",
+            "type": "пасажирський",
+            "address": "вул. Гагаріна, 2",
+            "gps": { "lat": 50.513, "lon": 30.789 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Гагаріна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 50.508, "lon": 30.780 },
+            "end_gps": { "lat": 50.518, "lon": 30.794 },
+            "length_km": 2.1,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міський міст (вул. Гагаріна)",
+            "type": "road",
+            "material": "бетон/сталь",
+            "length_m": 160,
+            "lanes": 2,
+            "built_year": 1985,
+            "gps": { "lat": 50.5128, "lon": 30.7886 },
+            "status": "in_service",
+            "notes": "Головний автомобільний міст у центральній частині міста (прикладний запис)."
+          },
+          {
+            "name": "Пішохідний міст біля парку",
+            "type": "pedestrian",
+            "material": "метал",
+            "length_m": 45,
+            "lanes": 0,
+            "built_year": 2004,
+            "gps": { "lat": 50.5145, "lon": 30.7920 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Гагаріна", "number": "2" },
+            "type": "apartment_building",
+            "construction_year": 1988,
+            "floors": 5,
+            "apartments_count": 20,
+            "gps": { "lat": 50.5130, "lon": 30.7890 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 2, "area_m2": 48.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Біла Церква",
+        "type": "city",
+        "population": 210000,
+        "gps": { "lat": 49.790, "lon": 30.115 },
+        "railway_stations": [
+          {
+            "name": "Біла Церква",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 49.791, "lon": 30.117 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Ярослава Мудрого",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.788, "lon": 30.110 },
+            "end_gps": { "lat": 49.795, "lon": 30.120 },
+            "length_km": 1.8,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на бул. Олександрійський",
+            "type": "road",
+            "material": "залізобетон",
+            "length_m": 120,
+            "lanes": 2,
+            "built_year": 1978,
+            "gps": { "lat": 49.7925, "lon": 30.1165 },
+            "status": "in_service"
+          },
+          {
+            "name": "Залізничний міст (поблизу вокзалу)",
+            "type": "rail",
+            "material": "сталь",
+            "length_m": 220,
+            "lanes": null,
+            "built_year": 1955,
+            "gps": { "lat": 49.7909, "lon": 30.1180 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Ярослава Мудрого", "number": "10" },
+            "type": "apartment_building",
+            "construction_year": 1975,
+            "floors": 9,
+            "apartments_count": 45,
+            "gps": { "lat": 49.7920, "lon": 30.1160 },
+            "apartments": [
+              { "number": "3", "floor": 1, "rooms": 1, "area_m2": 30.5, "residents": 1, "status": "occupied" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ірпінь",
+        "type": "city",
+        "population": 61000,
+        "gps": { "lat": 50.521, "lon": 30.255 },
+        "railway_stations": [
+          {
+            "name": "Ірпінь",
+            "type": "пасажирський",
+            "address": "вул. Центральна",
+            "gps": { "lat": 50.520, "lon": 30.257 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Центральна",
+            "type": "street",
+            "classification": "urban",
+            "start_gps": { "lat": 50.518, "lon": 30.250 },
+            "end_gps": { "lat": 50.525, "lon": 30.260 },
+            "length_km": 1.6,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через річку Ірпінь (вул. Центральна)",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 180,
+            "lanes": 4,
+            "built_year": 1990,
+            "gps": { "lat": 50.5202, "lon": 30.2558 },
+            "status": "in_service"
+          },
+          {
+            "name": "Пішохідний міст на набережній",
+            "type": "pedestrian",
+            "material": "метал/дерево",
+            "length_m": 35,
+            "lanes": 0,
+            "built_year": 2010,
+            "gps": { "lat": 50.5218, "lon": 30.2585 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Центральна", "number": "1" },
+            "type": "mixed_use",
+            "construction_year": 2000,
+            "floors": 5,
+            "apartments_count": 10,
+            "gps": { "lat": 50.5205, "lon": 30.2575 },
+            "apartments": [
+              { "number": "1A", "floor": 1, "rooms": 1, "area_m2": 34.0, "residents": 1, "status": "occupied" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Фастів",
+        "type": "city",
+        "population": 46000,
+        "gps": { "lat": 50.073, "lon": 29.905 },
+        "railway_stations": [
+          {
+            "name": "Фастів",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Вокзальна, 1",
+            "gps": { "lat": 50.074, "lon": 29.904 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Вокзальна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 50.072, "lon": 29.900 },
+            "end_gps": { "lat": 50.076, "lon": 29.908 },
+            "length_km": 0.9,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Вокзальний міст",
+            "type": "road",
+            "material": "залізобетон",
+            "length_m": 95,
+            "lanes": 2,
+            "built_year": 1960,
+            "gps": { "lat": 50.0738, "lon": 29.9045 },
+            "status": "in_service"
+          },
+          {
+            "name": "Залізничний міст Фастів-ІІ",
+            "type": "rail",
+            "material": "сталь",
+            "length_m": 300,
+            "lanes": null,
+            "built_year": 1950,
+            "gps": { "lat": 50.0745, "lon": 29.9030 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Вокзальна", "number": "1" },
+            "type": "public_transport_hub",
+            "construction_year": 1960,
+            "floors": 2,
+            "apartments_count": 0,
+            "gps": { "lat": 50.0740, "lon": 29.9040 },
+            "apartments": []
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "generated_for": "Київська область — приклад мостів для всіх міст у вибірці",
+    "notes": "Мости додані як прикладні об'єкти. Якщо потрібно, можу розгорнути розділ 'bridges' для всіх міст України або наповнити реальними даними з OpenStreetMap/державних реєстрів."
+  }
+}
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Київська область",
+    "type": "oblast",
+    "code": "UA-32",
+    "cities": [
+      структурами:  АТБ, ринки,  
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Львівська область",
+    "type": "oblast",
+    "code": "UA-46",
+    "cities": [
+      {
+        "name": "Львів",
+        "type": "city",
+        "population": 720000,
+        "gps": { "lat": 49.8397, "lon": 24.0297 },
+        "railway_stations": [
+          {
+            "name": "Львів-Головний",
+            "type": "пасажирський",
+            "address": "вул. Двірцева, 1",
+            "gps": { "lat": 49.8414, "lon": 24.0316 }
+          },
+          {
+            "name": "Підзамче",
+            "type": "пасажирський/приміський",
+            "address": "вул. Миколайчука",
+            "gps": { "lat": 49.8472, "lon": 24.0248 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Стрийська",
+            "type": "street",
+            "classification": "regional",
+            "start_gps": { "lat": 49.8310, "lon": 24.0160 },
+            "end_gps": { "lat": 49.8450, "lon": 24.0300 },
+            "length_km": 4.2,
+            "surface": "асфальт",
+            "lanes": 4
+          },
+          {
+            "name": "просп. Чорновола",
+            "type": "avenue",
+            "classification": "urban",
+            "start_gps": { "lat": 49.8420, "lon": 24.0005 },
+            "end_gps": { "lat": 49.8510, "lon": 24.0300 },
+            "length_km": 3.6,
+            "surface": "асфальт",
+            "lanes": 4
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на вул. Виговського",
+            "type": "road",
+            "material": "залізобетон",
+            "length_m": 120,
+            "lanes": 2,
+            "built_year": 1980,
+            "gps": { "lat": 49.8265, "lon": 24.0230 },
+            "status": "in_service"
+          },
+          {
+            "name": "Пішохідний міст над Полтвою (парк)",
+            "type": "pedestrian",
+            "material": "метал",
+            "length_m": 40,
+            "lanes": 0,
+            "built_year": 2002,
+            "gps": { "lat": 49.8390, "lon": 24.0220 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Дорошенка", "number": "50" },
+            "type": "apartment_building",
+            "construction_year": 1970,
+            "floors": 8,
+            "apartments_count": 64,
+            "gps": { "lat": 49.8295, "lon": 24.0302 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 1, "area_m2": 36.0, "residents": 1, "status": "occupied" },
+              { "number": "45", "floor": 6, "rooms": 3, "area_m2": 78.5, "residents": 4, "status": "occupied" }
+            ]
+          },
+          {
+            "address": { "street": "вул. Академіка Сахарова", "number": "3A" },
+            "type": "office_residential",
+            "construction_year": 2008,
+            "floors": 12,
+            "apartments_count": 48,
+            "gps": { "lat": 49.8440, "lon": 24.0175 },
+            "apartments": [
+              { "number": "101", "floor": 1, "rooms": 2, "area_m2": 52.0, "residents": 2, "status": "occupied" },
+              { "number": "905", "floor": 9, "rooms": 4, "area_m2": 110.0, "residents": 5, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Маркет №001",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Винниченка, 12",
+            "gps": { "lat": 49.8410, "lon": 24.0250 },
+            "open_hours": "07:00-23:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          },
+          {
+            "name": "Супермаркет «Сільпо»",
+            "brand": "Silpo",
+            "type": "supermarket",
+            "address": "просп. Чорновола, 30",
+            "gps": { "lat": 49.8435, "lon": 24.0120 },
+            "open_hours": "08:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Краківський ринок",
+            "type": "market",
+            "address": "вул. Краківська, 5",
+            "gps": { "lat": 49.8422, "lon": 24.0309 },
+            "open_hours": "06:00-16:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "WOG Львів",
+            "brand": "WOG",
+            "type": "gas_station",
+            "address": "вул. Городоцька, 220",
+            "gps": { "lat": 49.8330, "lon": 24.0000 },
+            "open_24h": true,
+            "fuel_types": ["A95", "A92", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "lv-01", "type": "shop", "label": "АТБ — можна заходити і купувати", "gps": { "lat": 49.8410, "lon": 24.0250 } },
+          { "id": "lv-02", "type": "market", "label": "Краківський ринок — свіжі продукти", "gps": { "lat": 49.8422, "lon": 24.0309 } },
+          { "id": "lv-03", "type": "gas_station", "label": "WOG — 24/7", "gps": { "lat": 49.8330, "lon": 24.0000 } }
+        ]
+      },
+      {
+        "name": "Дрогобич",
+        "type": "city",
+        "population": 74000,
+        "gps": { "lat": 49.3500, "lon": 23.5000 },
+        "railway_stations": [
+          {
+            "name": "Дрогобич",
+            "type": "пасажирський",
+            "address": "вул. Стрийська, 1",
+            "gps": { "lat": 49.3505, "lon": 23.4990 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Стрийська",
+            "type": "street",
+            "classification": "regional",
+            "start_gps": { "lat": 49.3470, "lon": 23.4950 },
+            "end_gps": { "lat": 49.3540, "lon": 23.5050 },
+            "length_km": 3.0,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через р. Тисмениця (біля центру)",
+            "type": "road",
+            "material": "залізобетон",
+            "length_m": 85,
+            "lanes": 2,
+            "built_year": 1975,
+            "gps": { "lat": 49.3488, "lon": 23.5012 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Самбірська", "number": "12" },
+            "type": "apartment_building",
+            "construction_year": 1985,
+            "floors": 5,
+            "apartments_count": 30,
+            "gps": { "lat": 49.3495, "lon": 23.4985 },
+            "apartments": [
+              { "number": "4", "floor": 1, "rooms": 2, "area_m2": 48.0, "residents": 2, "status": "occupied" },
+              { "number": "21", "floor": 4, "rooms": 3, "area_m2": 72.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Дрогобич",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Шевченка, 5",
+            "gps": { "lat": 49.3510, "lon": 23.5005 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Центральний ринок Дрогобича",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.3508, "lon": 23.5020 },
+            "open_hours": "06:00-15:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "OKKO Дрогобич",
+            "brand": "OKKO",
+            "type": "gas_station",
+            "address": "вул. Стрийська, 88",
+            "gps": { "lat": 49.3520, "lon": 23.4950 },
+            "open_24h": false,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "dr-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 49.3510, "lon": 23.5005 } },
+          { "id": "dr-02", "type": "market", "label": "Центральний ринок — можна купувати", "gps": { "lat": 49.3508, "lon": 23.5020 } }
+        ]
+      },
+      {
+        "name": "Трускавець",
+        "type": "city",
+        "population": 28000,
+        "gps": { "lat": 49.2783, "lon": 23.5061 },
+        "railway_stations": [
+          {
+            "name": "Трускавець",
+            "type": "пасажирський",
+            "address": "вул. Заводська, 2",
+            "gps": { "lat": 49.2790, "lon": 23.5065 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Бориславська",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.2760, "lon": 23.5000 },
+            "end_gps": { "lat": 49.2810, "lon": 23.5120 },
+            "length_km": 2.0,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст над струмком (пішохідний поруч санаторіїв)",
+            "type": "pedestrian",
+            "material": "метал/бетон",
+            "length_m": 25,
+            "lanes": 0,
+            "built_year": 1998,
+            "gps": { "lat": 49.2798, "lon": 23.5070 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Курортна", "number": "7" },
+            "type": "hotel_apartment",
+            "construction_year": 2000,
+            "floors": 6,
+            "apartments_count": 40,
+            "gps": { "lat": 49.2788, "lon": 23.5067 },
+            "apartments": [
+              { "number": "A1", "floor": 1, "rooms": 1, "area_m2": 30.0, "residents": 0, "status": "for_rent" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Трускавець (маркет)",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Курортна, 2",
+            "gps": { "lat": 49.2792, "lon": 23.5058 },
+            "open_hours": "08:00-21:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Місцевий ринок Трускавця",
+            "type": "market",
+            "address": "вул. Ринкова, 1",
+            "gps": { "lat": 49.2775, "lon": 23.5050 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС Shell Трускавець",
+            "brand": "Shell",
+            "type": "gas_station",
+            "address": "вул. Бориславська, 10",
+            "gps": { "lat": 49.2765, "lon": 23.5035 },
+            "open_24h": false,
+            "fuel_types": ["A95", "A92", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "tr-01", "type": "shop", "label": "АТБ — супермаркет Трускавець", "gps": { "lat": 49.2792, "lon": 23.5058 } },
+          { "id": "tr-02", "type": "market", "label": "Ринок — місцеві продукти", "gps": { "lat": 49.2775, "lon": 23.5050 } }
+        ]
+      },
+      {
+        "name": "Червоноград",
+        "type": "city",
+        "population": 63000,
+        "gps": { "lat": 50.3536, "lon": 24.2087 },
+        "railway_stations": [
+          {
+            "name": "Червоноград",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Залізнична, 1",
+            "gps": { "lat": 50.3540, "lon": 24.2100 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Сокальська",
+            "type": "street",
+            "classification": "urban",
+            "start_gps": { "lat": 50.3510, "lon": 24.2050 },
+            "end_gps": { "lat": 50.3570, "lon": 24.2150 },
+            "length_km": 2.8,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на вул. Сокальська",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 60,
+            "lanes": 2,
+            "built_year": 1982,
+            "gps": { "lat": 50.3530, "lon": 24.2080 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Незалежності", "number": "2" },
+            "type": "apartment_building",
+            "construction_year": 1990,
+            "floors": 5,
+            "apartments_count": 20,
+            "gps": { "lat": 50.3545, "lon": 24.2090 },
+            "apartments": [
+              { "number": "10", "floor": 2, "rooms": 2, "area_m2": 50.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Червоноград",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Незалежності, 5",
+            "gps": { "lat": 50.3550, "lon": 24.2102 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Ринок Червоноград",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 50.3548, "lon": 24.2110 },
+            "open_hours": "06:00-15:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "WOG Червоноград",
+            "brand": "WOG",
+            "type": "gas_station",
+            "address": "вул. Сокальська, 20",
+            "gps": { "lat": 50.3538, "lon": 24.2065 },
+            "open_24h": true,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "ch-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 50.3550, "lon": 24.2102 } }
+        ]
+      },
+      {
+        "name": "Стрий",
+        "type": "city",
+        "population": 60000,
+        "gps": { "lat": 49.2458, "lon": 23.8519 },
+        "railway_stations": [
+          {
+            "name": "Стрий",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Вокзальна, 5",
+            "gps": { "lat": 49.2462, "lon": 23.8525 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Вокзальна",
+            "type": "street",
+            "classification": "urban",
+            "start_gps": { "lat": 49.2440, "lon": 23.8480 },
+            "end_gps": { "lat": 49.2490, "lon": 23.8560 },
+            "length_km": 1.9,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через р. Стрий",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 110,
+            "lanes": 2,
+            "built_year": 1968,
+            "gps": { "lat": 49.2470, "lon": 23.8530 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Шкільна", "number": "8" },
+            "type": "apartment_building",
+            "construction_year": 1978,
+            "floors": 5,
+            "apartments_count": 24,
+            "gps": { "lat": 49.2460, "lon": 23.8510 },
+            "apartments": [
+              { "number": "6", "floor": 1, "rooms": 2, "area_m2": 45.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Стрий",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Незалежності, 10",
+            "gps": { "lat": 49.2465, "lon": 23.8520 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Стрийський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 2",
+            "gps": { "lat": 49.2468, "lon": 23.8535 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "OKKO Стрий",
+            "brand": "OKKO",
+            "type": "gas_station",
+            "address": "вул. Вокзальна, 12",
+            "gps": { "lat": 49.2455, "lon": 23.8505 },
+            "open_24h": false,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "st-01", "type": "shop", "label": "АТБ — можна купувати", "gps": { "lat": 49.2465, "lon": 23.8520 } }
+        ]
+      },
+      {
+        "name": "Самбір",
+        "type": "city",
+        "population": 36800,
+        "gps": { "lat": 49.5183, "lon": 23.1994 },
+        "railway_stations": [
+          {
+            "name": "Самбір",
+            "type": "пасажирський",
+            "address": "вул. Залізнична, 1",
+            "gps": { "lat": 49.5185, "lon": 23.2000 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Залізнична",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.5160, "lon": 23.1950 },
+            "end_gps": { "lat": 49.5205, "lon": 23.2050 },
+            "length_km": 2.4,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через р. Стрв",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 48,
+            "lanes": 2,
+            "built_year": 1972,
+            "gps": { "lat": 49.5190, "lon": 23.2005 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Грушевського", "number": "3" },
+            "type": "apartment_building",
+            "construction_year": 1965,
+            "floors": 4,
+            "apartments_count": 12,
+            "gps": { "lat": 49.5180, "lon": 23.1990 },
+            "apartments": [
+              { "number": "2", "floor": 1, "rooms": 2, "area_m2": 46.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Самбір",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Незалежності, 4",
+            "gps": { "lat": 49.5188, "lon": 23.1998 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Самбірський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.5192, "lon": 23.2004 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС місцева",
+            "brand": null,
+            "type": "gas_station",
+            "address": "вул. Залізнична, 8",
+            "gps": { "lat": 49.5200, "lon": 23.1985 },
+            "open_24h": false,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": false,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "sa-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 49.5188, "lon": 23.1998 } }
+        ]
+      },
+      {
+        "name": "Золочів",
+        "type": "city",
+        "population": 22000,
+        "gps": { "lat": 49.7833, "lon": 24.8800 },
+        "railway_stations": [
+          {
+            "name": "Золочів",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 49.7836, "lon": 24.8805 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Станційна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.7810, "lon": 24.8760 },
+            "end_gps": { "lat": 49.7860, "lon": 24.8840 },
+            "length_km": 1.6,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на вул. Станційна",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 40,
+            "lanes": 2,
+            "built_year": 1970,
+            "gps": { "lat": 49.7834, "lon": 24.8798 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Галицька", "number": "7" },
+            "type": "apartment_building",
+            "construction_year": 1980,
+            "floors": 5,
+            "apartments_count": 18,
+            "gps": { "lat": 49.7839, "lon": 24.8808 },
+            "apartments": [
+              { "number": "5", "floor": 1, "rooms": 2, "area_m2": 48.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Золочів",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Галицька, 3",
+            "gps": { "lat": 49.7842, "lon": 24.8810 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Золочівський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.7840, "lon": 24.8805 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "WOG Золочів",
+            "brand": "WOG",
+            "type": "gas_station",
+            "address": "вул. Станційна, 10",
+            "gps": { "lat": 49.7830, "lon": 24.8785 },
+            "open_24h": true,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "zo-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 49.7842, "lon": 24.8810 } }
+        ]
+      },
+      {
+        "name": "Новояворівськ",
+        "type": "city",
+        "population": 35000,
+        "gps": { "lat": 50.0510, "lon": 23.5010 },
+        "railway_stations": [
+          {
+            "name": "Новояворівськ",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 50.0512, "lon": 23.5015 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Станційна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 50.0490, "lon": 23.4980 },
+            "end_gps": { "lat": 50.0530, "lon": 23.5040 },
+            "length_km": 1.2,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст поруч вокзалу",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 35,
+            "lanes": 2,
+            "built_year": 1995,
+            "gps": { "lat": 50.0515, "lon": 23.5018 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Центральна", "number": "6" },
+            "type": "apartment_building",
+            "construction_year": 2005,
+            "floors": 7,
+            "apartments_count": 42,
+            "gps": { "lat": 50.0508, "lon": 23.5008 },
+            "apartments": [
+              { "number": "10", "floor": 2, "rooms": 2, "area_m2": 56.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Новояворівськ",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Центральна, 2",
+            "gps": { "lat": 50.0510, "lon": 23.5010 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Місцевий ринок Новояворівськ",
+            "type": "market",
+            "address": "вул. Ринкова, 1",
+            "gps": { "lat": 50.0518, "lon": 23.5022 },
+            "open_hours": "06:00-13:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС місцева",
+            "brand": null,
+            "type": "gas_station",
+            "address": "вул. Станційна, 5",
+            "gps": { "lat": 50.0505, "lon": 23.5000 },
+            "open_24h": false,
+            "fuel_types": ["A95"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "ny-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 50.0510, "lon": 23.5010 } }
+        ]
+      },
+      {
+        "name": "Перемишляни",
+        "type": "city",
+        "population": 9200,
+        "gps": { "lat": 49.8061, "lon": 24.3689 },
+        "railway_stations": [
+          {
+            "name": "Перемишляни",
+            "type": "пасажирський",
+            "address": null,
+            "gps": { "lat": 49.8065, "lon": 24.3695 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Центр",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.8040, "lon": 24.3660 },
+            "end_gps": { "lat": 49.8085, "lon": 24.3720 },
+            "length_km": 1.0,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст біля річки в центрі",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 30,
+            "lanes": 2,
+            "built_year": 1960,
+            "gps": { "lat": 49.8062, "lon": 24.3689 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Лесі Українки", "number": "1" },
+            "type": "apartment_building",
+            "construction_year": 1975,
+            "floors": 4,
+            "apartments_count": 8,
+            "gps": { "lat": 49.8068, "lon": 24.3698 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 2, "area_m2": 45.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "Магазин місцевий",
+            "brand": null,
+            "type": "grocery",
+            "address": "вул. Центр, 3",
+            "gps": { "lat": 49.8064, "lon": 24.3690 },
+            "open_hours": "08:00-20:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Перемишлянський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.8069, "lon": 24.3695 },
+            "open_hours": "06:00-13:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС локальна",
+            "brand": null,
+            "type": "gas_station",
+            "address": "вул. Центр, 10",
+            "gps": { "lat": 49.8055, "lon": 24.3675 },
+            "open_24h": false,
+            "fuel_types": ["A95"],
+            "accepts_card": false,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "pm-01", "type": "market", "label": "Місцевий ринок — можна купувати", "gps": { "lat": 49.8069, "lon": 24.3695 } }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "generated_for": "Львівська область — повна прикладна структура з вокзалами, дорогами, мостами, будинками/квартирами, магазинами (АТБ), ринками, заправками і POI-мітками",
+    "notes": "Дані прикладні і не гарантують повної точності. Можу: 1) продовжити автоматично для інших областей; 2) експортувати у CSV/SQL/GeoJSON; 3) підвантажити й звірити реальні об'єкти з OpenStreetMap для точних координат і назв."
+  }
+}
+структурами:  АТБ, ринки,  
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Львівська область",
+    "type": "oblast",
+    "code": "UA-46",
+    "cities": [
+      {
+        "name": "Львів",
+        "type": "city",
+        "population": 720000,
+        "gps": { "lat": 49.8397, "lon": 24.0297 },
+        "railway_stations": [
+          {
+            "name": "Львів-Головний",
+            "type": "пасажирський",
+            "address": "вул. Двірцева, 1",
+            "gps": { "lat": 49.8414, "lon": 24.0316 }
+          },
+          {
+            "name": "Підзамче",
+            "type": "пасажирський/приміський",
+            "address": "вул. Миколайчука",
+            "gps": { "lat": 49.8472, "lon": 24.0248 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Стрийська",
+            "type": "street",
+            "classification": "regional",
+            "start_gps": { "lat": 49.8310, "lon": 24.0160 },
+            "end_gps": { "lat": 49.8450, "lon": 24.0300 },
+            "length_km": 4.2,
+            "surface": "асфальт",
+            "lanes": 4
+          },
+          {
+            "name": "просп. Чорновола",
+            "type": "avenue",
+            "classification": "urban",
+            "start_gps": { "lat": 49.8420, "lon": 24.0005 },
+            "end_gps": { "lat": 49.8510, "lon": 24.0300 },
+            "length_km": 3.6,
+            "surface": "асфальт",
+            "lanes": 4
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на вул. Виговського",
+            "type": "road",
+            "material": "залізобетон",
+            "length_m": 120,
+            "lanes": 2,
+            "built_year": 1980,
+            "gps": { "lat": 49.8265, "lon": 24.0230 },
+            "status": "in_service"
+          },
+          {
+            "name": "Пішохідний міст над Полтвою (парк)",
+            "type": "pedestrian",
+            "material": "метал",
+            "length_m": 40,
+            "lanes": 0,
+            "built_year": 2002,
+            "gps": { "lat": 49.8390, "lon": 24.0220 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Дорошенка", "number": "50" },
+            "type": "apartment_building",
+            "construction_year": 1970,
+            "floors": 8,
+            "apartments_count": 64,
+            "gps": { "lat": 49.8295, "lon": 24.0302 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 1, "area_m2": 36.0, "residents": 1, "status": "occupied" },
+              { "number": "45", "floor": 6, "rooms": 3, "area_m2": 78.5, "residents": 4, "status": "occupied" }
+            ]
+          },
+          {
+            "address": { "street": "вул. Академіка Сахарова", "number": "3A" },
+            "type": "office_residential",
+            "construction_year": 2008,
+            "floors": 12,
+            "apartments_count": 48,
+            "gps": { "lat": 49.8440, "lon": 24.0175 },
+            "apartments": [
+              { "number": "101", "floor": 1, "rooms": 2, "area_m2": 52.0, "residents": 2, "status": "occupied" },
+              { "number": "905", "floor": 9, "rooms": 4, "area_m2": 110.0, "residents": 5, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Маркет №001",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Винниченка, 12",
+            "gps": { "lat": 49.8410, "lon": 24.0250 },
+            "open_hours": "07:00-23:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          },
+          {
+            "name": "Супермаркет «Сільпо»",
+            "brand": "Silpo",
+            "type": "supermarket",
+            "address": "просп. Чорновола, 30",
+            "gps": { "lat": 49.8435, "lon": 24.0120 },
+            "open_hours": "08:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Краківський ринок",
+            "type": "market",
+            "address": "вул. Краківська, 5",
+            "gps": { "lat": 49.8422, "lon": 24.0309 },
+            "open_hours": "06:00-16:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "WOG Львів",
+            "brand": "WOG",
+            "type": "gas_station",
+            "address": "вул. Городоцька, 220",
+            "gps": { "lat": 49.8330, "lon": 24.0000 },
+            "open_24h": true,
+            "fuel_types": ["A95", "A92", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "lv-01", "type": "shop", "label": "АТБ — можна заходити і купувати", "gps": { "lat": 49.8410, "lon": 24.0250 } },
+          { "id": "lv-02", "type": "market", "label": "Краківський ринок — свіжі продукти", "gps": { "lat": 49.8422, "lon": 24.0309 } },
+          { "id": "lv-03", "type": "gas_station", "label": "WOG — 24/7", "gps": { "lat": 49.8330, "lon": 24.0000 } }
+        ]
+      },
+      {
+        "name": "Дрогобич",
+        "type": "city",
+        "population": 74000,
+        "gps": { "lat": 49.3500, "lon": 23.5000 },
+        "railway_stations": [
+          {
+            "name": "Дрогобич",
+            "type": "пасажирський",
+            "address": "вул. Стрийська, 1",
+            "gps": { "lat": 49.3505, "lon": 23.4990 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Стрийська",
+            "type": "street",
+            "classification": "regional",
+            "start_gps": { "lat": 49.3470, "lon": 23.4950 },
+            "end_gps": { "lat": 49.3540, "lon": 23.5050 },
+            "length_km": 3.0,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через р. Тисмениця (біля центру)",
+            "type": "road",
+            "material": "залізобетон",
+            "length_m": 85,
+            "lanes": 2,
+            "built_year": 1975,
+            "gps": { "lat": 49.3488, "lon": 23.5012 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Самбірська", "number": "12" },
+            "type": "apartment_building",
+            "construction_year": 1985,
+            "floors": 5,
+            "apartments_count": 30,
+            "gps": { "lat": 49.3495, "lon": 23.4985 },
+            "apartments": [
+              { "number": "4", "floor": 1, "rooms": 2, "area_m2": 48.0, "residents": 2, "status": "occupied" },
+              { "number": "21", "floor": 4, "rooms": 3, "area_m2": 72.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Дрогобич",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Шевченка, 5",
+            "gps": { "lat": 49.3510, "lon": 23.5005 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Центральний ринок Дрогобича",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.3508, "lon": 23.5020 },
+            "open_hours": "06:00-15:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "OKKO Дрогобич",
+            "brand": "OKKO",
+            "type": "gas_station",
+            "address": "вул. Стрийська, 88",
+            "gps": { "lat": 49.3520, "lon": 23.4950 },
+            "open_24h": false,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "dr-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 49.3510, "lon": 23.5005 } },
+          { "id": "dr-02", "type": "market", "label": "Центральний ринок — можна купувати", "gps": { "lat": 49.3508, "lon": 23.5020 } }
+        ]
+      },
+      {
+        "name": "Трускавець",
+        "type": "city",
+        "population": 28000,
+        "gps": { "lat": 49.2783, "lon": 23.5061 },
+        "railway_stations": [
+          {
+            "name": "Трускавець",
+            "type": "пасажирський",
+            "address": "вул. Заводська, 2",
+            "gps": { "lat": 49.2790, "lon": 23.5065 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Бориславська",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.2760, "lon": 23.5000 },
+            "end_gps": { "lat": 49.2810, "lon": 23.5120 },
+            "length_km": 2.0,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст над струмком (пішохідний поруч санаторіїв)",
+            "type": "pedestrian",
+            "material": "метал/бетон",
+            "length_m": 25,
+            "lanes": 0,
+            "built_year": 1998,
+            "gps": { "lat": 49.2798, "lon": 23.5070 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Курортна", "number": "7" },
+            "type": "hotel_apartment",
+            "construction_year": 2000,
+            "floors": 6,
+            "apartments_count": 40,
+            "gps": { "lat": 49.2788, "lon": 23.5067 },
+            "apartments": [
+              { "number": "A1", "floor": 1, "rooms": 1, "area_m2": 30.0, "residents": 0, "status": "for_rent" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Трускавець (маркет)",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Курортна, 2",
+            "gps": { "lat": 49.2792, "lon": 23.5058 },
+            "open_hours": "08:00-21:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Місцевий ринок Трускавця",
+            "type": "market",
+            "address": "вул. Ринкова, 1",
+            "gps": { "lat": 49.2775, "lon": 23.5050 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС Shell Трускавець",
+            "brand": "Shell",
+            "type": "gas_station",
+            "address": "вул. Бориславська, 10",
+            "gps": { "lat": 49.2765, "lon": 23.5035 },
+            "open_24h": false,
+            "fuel_types": ["A95", "A92", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "tr-01", "type": "shop", "label": "АТБ — супермаркет Трускавець", "gps": { "lat": 49.2792, "lon": 23.5058 } },
+          { "id": "tr-02", "type": "market", "label": "Ринок — місцеві продукти", "gps": { "lat": 49.2775, "lon": 23.5050 } }
+        ]
+      },
+      {
+        "name": "Червоноград",
+        "type": "city",
+        "population": 63000,
+        "gps": { "lat": 50.3536, "lon": 24.2087 },
+        "railway_stations": [
+          {
+            "name": "Червоноград",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Залізнична, 1",
+            "gps": { "lat": 50.3540, "lon": 24.2100 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Сокальська",
+            "type": "street",
+            "classification": "urban",
+            "start_gps": { "lat": 50.3510, "lon": 24.2050 },
+            "end_gps": { "lat": 50.3570, "lon": 24.2150 },
+            "length_km": 2.8,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на вул. Сокальська",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 60,
+            "lanes": 2,
+            "built_year": 1982,
+            "gps": { "lat": 50.3530, "lon": 24.2080 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Незалежності", "number": "2" },
+            "type": "apartment_building",
+            "construction_year": 1990,
+            "floors": 5,
+            "apartments_count": 20,
+            "gps": { "lat": 50.3545, "lon": 24.2090 },
+            "apartments": [
+              { "number": "10", "floor": 2, "rooms": 2, "area_m2": 50.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Червоноград",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Незалежності, 5",
+            "gps": { "lat": 50.3550, "lon": 24.2102 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Ринок Червоноград",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 50.3548, "lon": 24.2110 },
+            "open_hours": "06:00-15:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "WOG Червоноград",
+            "brand": "WOG",
+            "type": "gas_station",
+            "address": "вул. Сокальська, 20",
+            "gps": { "lat": 50.3538, "lon": 24.2065 },
+            "open_24h": true,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "ch-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 50.3550, "lon": 24.2102 } }
+        ]
+      },
+      {
+        "name": "Стрий",
+        "type": "city",
+        "population": 60000,
+        "gps": { "lat": 49.2458, "lon": 23.8519 },
+        "railway_stations": [
+          {
+            "name": "Стрий",
+            "type": "пасажирський/вантажний",
+            "address": "вул. Вокзальна, 5",
+            "gps": { "lat": 49.2462, "lon": 23.8525 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Вокзальна",
+            "type": "street",
+            "classification": "urban",
+            "start_gps": { "lat": 49.2440, "lon": 23.8480 },
+            "end_gps": { "lat": 49.2490, "lon": 23.8560 },
+            "length_km": 1.9,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через р. Стрий",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 110,
+            "lanes": 2,
+            "built_year": 1968,
+            "gps": { "lat": 49.2470, "lon": 23.8530 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Шкільна", "number": "8" },
+            "type": "apartment_building",
+            "construction_year": 1978,
+            "floors": 5,
+            "apartments_count": 24,
+            "gps": { "lat": 49.2460, "lon": 23.8510 },
+            "apartments": [
+              { "number": "6", "floor": 1, "rooms": 2, "area_m2": 45.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Стрий",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Незалежності, 10",
+            "gps": { "lat": 49.2465, "lon": 23.8520 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Стрийський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 2",
+            "gps": { "lat": 49.2468, "lon": 23.8535 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "OKKO Стрий",
+            "brand": "OKKO",
+            "type": "gas_station",
+            "address": "вул. Вокзальна, 12",
+            "gps": { "lat": 49.2455, "lon": 23.8505 },
+            "open_24h": false,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "st-01", "type": "shop", "label": "АТБ — можна купувати", "gps": { "lat": 49.2465, "lon": 23.8520 } }
+        ]
+      },
+      {
+        "name": "Самбір",
+        "type": "city",
+        "population": 36800,
+        "gps": { "lat": 49.5183, "lon": 23.1994 },
+        "railway_stations": [
+          {
+            "name": "Самбір",
+            "type": "пасажирський",
+            "address": "вул. Залізнична, 1",
+            "gps": { "lat": 49.5185, "lon": 23.2000 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Залізнична",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.5160, "lon": 23.1950 },
+            "end_gps": { "lat": 49.5205, "lon": 23.2050 },
+            "length_km": 2.4,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст через р. Стрв",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 48,
+            "lanes": 2,
+            "built_year": 1972,
+            "gps": { "lat": 49.5190, "lon": 23.2005 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Грушевського", "number": "3" },
+            "type": "apartment_building",
+            "construction_year": 1965,
+            "floors": 4,
+            "apartments_count": 12,
+            "gps": { "lat": 49.5180, "lon": 23.1990 },
+            "apartments": [
+              { "number": "2", "floor": 1, "rooms": 2, "area_m2": 46.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Самбір",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Незалежності, 4",
+            "gps": { "lat": 49.5188, "lon": 23.1998 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Самбірський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.5192, "lon": 23.2004 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС місцева",
+            "brand": null,
+            "type": "gas_station",
+            "address": "вул. Залізнична, 8",
+            "gps": { "lat": 49.5200, "lon": 23.1985 },
+            "open_24h": false,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": false,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "sa-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 49.5188, "lon": 23.1998 } }
+        ]
+      },
+      {
+        "name": "Золочів",
+        "type": "city",
+        "population": 22000,
+        "gps": { "lat": 49.7833, "lon": 24.8800 },
+        "railway_stations": [
+          {
+            "name": "Золочів",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 49.7836, "lon": 24.8805 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Станційна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.7810, "lon": 24.8760 },
+            "end_gps": { "lat": 49.7860, "lon": 24.8840 },
+            "length_km": 1.6,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст на вул. Станційна",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 40,
+            "lanes": 2,
+            "built_year": 1970,
+            "gps": { "lat": 49.7834, "lon": 24.8798 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Галицька", "number": "7" },
+            "type": "apartment_building",
+            "construction_year": 1980,
+            "floors": 5,
+            "apartments_count": 18,
+            "gps": { "lat": 49.7839, "lon": 24.8808 },
+            "apartments": [
+              { "number": "5", "floor": 1, "rooms": 2, "area_m2": 48.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Золочів",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Галицька, 3",
+            "gps": { "lat": 49.7842, "lon": 24.8810 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Золочівський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.7840, "lon": 24.8805 },
+            "open_hours": "06:00-14:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "WOG Золочів",
+            "brand": "WOG",
+            "type": "gas_station",
+            "address": "вул. Станційна, 10",
+            "gps": { "lat": 49.7830, "lon": 24.8785 },
+            "open_24h": true,
+            "fuel_types": ["A95", "Diesel"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "zo-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 49.7842, "lon": 24.8810 } }
+        ]
+      },
+      {
+        "name": "Новояворівськ",
+        "type": "city",
+        "population": 35000,
+        "gps": { "lat": 50.0510, "lon": 23.5010 },
+        "railway_stations": [
+          {
+            "name": "Новояворівськ",
+            "type": "пасажирський",
+            "address": "вул. Станційна, 1",
+            "gps": { "lat": 50.0512, "lon": 23.5015 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Станційна",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 50.0490, "lon": 23.4980 },
+            "end_gps": { "lat": 50.0530, "lon": 23.5040 },
+            "length_km": 1.2,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст поруч вокзалу",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 35,
+            "lanes": 2,
+            "built_year": 1995,
+            "gps": { "lat": 50.0515, "lon": 23.5018 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Центральна", "number": "6" },
+            "type": "apartment_building",
+            "construction_year": 2005,
+            "floors": 7,
+            "apartments_count": 42,
+            "gps": { "lat": 50.0508, "lon": 23.5008 },
+            "apartments": [
+              { "number": "10", "floor": 2, "rooms": 2, "area_m2": 56.0, "residents": 3, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "АТБ-Новояворівськ",
+            "brand": "АТБ",
+            "type": "supermarket",
+            "address": "вул. Центральна, 2",
+            "gps": { "lat": 50.0510, "lon": 23.5010 },
+            "open_hours": "07:00-22:00",
+            "accepts_card": true,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Місцевий ринок Новояворівськ",
+            "type": "market",
+            "address": "вул. Ринкова, 1",
+            "gps": { "lat": 50.0518, "lon": 23.5022 },
+            "open_hours": "06:00-13:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС місцева",
+            "brand": null,
+            "type": "gas_station",
+            "address": "вул. Станційна, 5",
+            "gps": { "lat": 50.0505, "lon": 23.5000 },
+            "open_24h": false,
+            "fuel_types": ["A95"],
+            "accepts_card": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "ny-01", "type": "shop", "label": "АТБ — супермаркет", "gps": { "lat": 50.0510, "lon": 23.5010 } }
+        ]
+      },
+      {
+        "name": "Перемишляни",
+        "type": "city",
+        "population": 9200,
+        "gps": { "lat": 49.8061, "lon": 24.3689 },
+        "railway_stations": [
+          {
+            "name": "Перемишляни",
+            "type": "пасажирський",
+            "address": null,
+            "gps": { "lat": 49.8065, "lon": 24.3695 }
+          }
+        ],
+        "roads": [
+          {
+            "name": "вул. Центр",
+            "type": "street",
+            "classification": "local",
+            "start_gps": { "lat": 49.8040, "lon": 24.3660 },
+            "end_gps": { "lat": 49.8085, "lon": 24.3720 },
+            "length_km": 1.0,
+            "surface": "асфальт",
+            "lanes": 2
+          }
+        ],
+        "bridges": [
+          {
+            "name": "Міст біля річки в центрі",
+            "type": "road",
+            "material": "бетон",
+            "length_m": 30,
+            "lanes": 2,
+            "built_year": 1960,
+            "gps": { "lat": 49.8062, "lon": 24.3689 },
+            "status": "in_service"
+          }
+        ],
+        "buildings": [
+          {
+            "address": { "street": "вул. Лесі Українки", "number": "1" },
+            "type": "apartment_building",
+            "construction_year": 1975,
+            "floors": 4,
+            "apartments_count": 8,
+            "gps": { "lat": 49.8068, "lon": 24.3698 },
+            "apartments": [
+              { "number": "1", "floor": 1, "rooms": 2, "area_m2": 45.0, "residents": 2, "status": "occupied" }
+            ]
+          }
+        ],
+        "shops": [
+          {
+            "name": "Магазин місцевий",
+            "brand": null,
+            "type": "grocery",
+            "address": "вул. Центр, 3",
+            "gps": { "lat": 49.8064, "lon": 24.3690 },
+            "open_hours": "08:00-20:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "markets": [
+          {
+            "name": "Перемишлянський ринок",
+            "type": "market",
+            "address": "пл. Ринок, 1",
+            "gps": { "lat": 49.8069, "lon": 24.3695 },
+            "open_hours": "06:00-13:00",
+            "accepts_card": false,
+            "accepts_cash": true,
+            "can_enter_and_buy": true
+          }
+        ],
+        "gas_stations": [
+          {
+            "name": "АЗС локальна",
+            "brand": null,
+            "type": "gas_station",
+            "address": "вул. Центр, 10",
+            "gps": { "lat": 49.8055, "lon": 24.3675 },
+            "open_24h": false,
+            "fuel_types": ["A95"],
+            "accepts_card": false,
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "pm-01", "type": "market", "label": "Місцевий ринок — можна купувати", "gps": { "lat": 49.8069, "lon": 24.3695 } }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "generated_for": "Львівська область — повна прикладна структура з вокзалами, дорогами, мостами, будинками/квартирами, магазинами (АТБ), ринками, заправками і POI-мітками",
+    "notes": "Дані прикладні і не гарантують повної точності. Можу: 1) продовжити автоматично для інших областей; 2) експортувати у CSV/SQL/GeoJSON; 3) підвантажити й звірити реальні об'єкти з OpenStreetMap для точних координат і назв."
+  }
+}
+апінг клавіш для руху (вперед/назад
+{
+  "controls": {
+    "movement": {
+      "forward_key": "ц",
+      "back_key": "и",
+      "left_key": "ф",
+      "right_key": "в",
+      "alternative_keys": {
+        "forward": ["w", "ArrowUp"],
+        "back": ["s", "ArrowDown"],
+        "left": ["a", "ArrowLeft"],
+        "right": ["d", "ArrowRight"]
+      },
+      "repeat_on_hold": true,
+      "sensitivity": 1.0
+    },
+    "interaction": {
+      "key": "Alt",
+      "hint_text_template": "Натисніть {key} щоб взаємодіяти",
+      "default_action": "open_menu"
+    },
+    "mobile": {
+      "use_touch_buttons": true,
+      "touch_buttons": {
+        "forward": "btn_up",
+        "back": "btn_down",
+        "left": "btn_left",
+        "right": "btn_right",
+        "interact": "btn_interact"
+      }
+    }
+  },
+  "poi_marker": {
+    "id": "br-01",
+    "type": "shop",
+    "label": "АТБ, можна заходити і купувати",
+    "gps": { "lat": 50.5132, "lon": 30.7891 },
+    "interaction": {
+      "trigger": "on_enter",
+      "radius_m": 10,
+      "activation": {
+        "method": "key",
+        "key": "Alt",
+        "action": "enter_and_buy",
+        "action_params": { "collect_all": true }
+      },
+      "label_hint": "Натисніть Alt, щоб зайти і купити",
+      "only_when_open": true
+    }
+  },
+  "shop": {
+    "name": "АТБ-Маркет №1234",
+    "brand": "АТБ",
+    "type": "supermarket",
+    "address": "вул. Гагаріна, 4",
+    "gps": { "lat": 50.5132, "lon": 30.7891 },
+    "open_hours": "07:00-23:00",
+    "interaction": {
+      "on_enter_message": "Натисніть Alt, щоб відкрити магазин",
+      "keyboard_shortcut": "Alt",
+      "default_action": "open_menu",
+      "can_enter_and_buy": true
+    }
+  }
+}
+ФРАКСИЯ (ДКВС — Дніпро, ДСНС — Київ, ЗСУ  ВИСКОМАТ 
+{
+  "country": "Україна",
+  "added_institutions": [
+    {
+      "region": {
+        "name": "Дніпропетровська область",
+        "type": "oblast",
+        "code": "UA-12",
+        "city": {
+          "name": "Дніпро",
+          "type": "city",
+          "gps": { "lat": 48.4647, "lon": 35.0462 }
+        }
+      },
+      "institutions": [
+        {
+          "id": "inst-dp-001",
+          "name": "ДКВС — Регіональне управління Державної кримінально-виконавчої служби (ДКВС) м. Дніпро (приклад)",
+          "type": "correctional_service",
+          "authority": "ДКВС",
+          "address": "вул. Прикладна, 10",
+          "gps": { "lat": 48.4660, "lon": 35.0480 },
+          "contact": { "phone": "+380-56-000-111", "email": "dkvs.dp@example.gov.ua" },
+          "access_level": "restricted",
+          "can_enter": false,
+          "notes": "Регіональне управління ДКВС — відомчий офіс. Доступ до об’єктів (установ виконання покарань) за спецдозволами/перепустками."
+        }
+      ]
+    },
+    {
+      "region": {
+        "name": "м. Київ (місто зі спеціальним статусом)",
+        "type": "city",
+        "code": "UA-30",
+        "city": {
+          "name": "Київ",
+          "type": "city",
+          "gps": { "lat": 50.4501, "lon": 30.5234 }
+        }
+      },
+      "institutions": [
+        {
+          "id": "inst-ky-001",
+          "name": "ДСНС — Головне управління Державної служби України з надзвичайних ситуацій у м. Київ",
+          "type": "emergency_service",
+          "authority": "ДСНС",
+          "address": "вул. Прикладна, 1",
+          "gps": { "lat": 50.4510, "lon": 30.5230 },
+          "contact": { "phone": "+380-44-101", "email": "kyiv@dsns.gov.ua" },
+          "access_level": "public",
+          "can_enter": true,
+          "notes": "Центральне управління ДСНС у м. Київ — цілодобова служба реагування; приймальня для звернень громадян."
+        }
+      ]
+    },
+    {
+      "region": {
+        "name": "Харківська область",
+        "type": "oblast",
+        "code": "UA-63",
+        "city": {
+          "name": "Харків",
+          "type": "city",
+          "gps": { "lat": 49.9935, "lon": 36.2304 }
+        }
+      },
+      "institutions": [
+        {
+          "id": "inst-kh-001",
+          "name": "Військова частина — представництво Збройних Сил України у м. Харків (приклад)",
+          "type": "military",
+          "authority": "Збройні Сили України",
+          "address": "вул. Військова, 5",
+          "gps": { "lat": 49.9945, "lon": 36.2315 },
+          "contact": { "phone": "+380-57-200-777", "email": "kh.mil@example.mil.ua" },
+          "access_level": "restricted",
+          "can_enter": false,
+          "notes": "Представництво ЗСУ / військова частина. Доступ обмежений; для звернень — через офіційну приймальню/канали."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "generated_for": "Додавання ДКВС (Дніпро), ДСНС (Київ), ЗСУ (Харків) — прикладні записи",
+    "notes": "Координати, адреси та контакти орієнтовні. Можу підвантажити або звірити реальні координати й контакти з OpenStreetMap або офіційних реєстрів і вставити напряму у ваші JSON-файли."
+  }
+}
+{
+  "country": "Україна",
+  "military_commissariats": [
+    {
+      "id": "mc-dp-001",
+      "region": "Дніпропетровська область",
+      "city": "Дніпро",
+      "name": "Територіальний центр комплектування та соціальної підтримки м. Дніпро (Військкомат)",
+      "type": "military_commissariat",
+      "authority": "Міністерство оборони / ТЦК",
+      "address": "вул. Центральна, 15",
+      "gps": { "lat": 48.4662, "lon": 35.0485 },
+      "contact": { "phone": "+380-56-123-4567", "email": "tc_kp.dp@example.mil.ua" },
+      "services": ["реєстрація призовників", "консультації з призову", "відправка на навчання", "соціальна підтримка ветеранів"],
+      "access_level": "public",
+      "can_enter": true,
+      "opening_hours": "09:00-18:00 (пон-пт)",
+      "notes": "Для офіційних справ і призову звертатись у приймальню; частина операцій потребує попереднього запису."
+    },
+    {
+      "id": "mc-ky-001",
+      "region": "м. Київ",
+      "city": "Київ",
+      "name": "Територіальний центр комплектування та соціальної підтримки м. Київ (Військкомат)",
+      "type": "military_commissariat",
+      "authority": "Міністерство оборони / ТЦК",
+      "address": "вул. Володимирська, 20",
+      "gps": { "lat": 50.4475, "lon": 30.5220 },
+      "contact": { "phone": "+380-44-123-4567", "email": "tc_kp.kyiv@example.mil.ua" },
+      "services": ["реєстрація військовозобов'язаних", "видача документів", "консультації щодо служби", "допомога ветеранам"],
+      "access_level": "public",
+      "can_enter": true,
+      "opening_hours": "09:00-18:00 (пон-пт)",
+      "notes": "Центральна приймальня. Для певних процедур потрібна попередня реєстрація через сайт або телефон."
+    },
+    {
+      "id": "mc-kh-001",
+      "region": "Харківська область",
+      "city": "Харків",
+      "name": "Територіальний центр комплектування та соціальної підтримки м. Харків (Військкомат)",
+      "type": "military_commissariat",
+      "authority": "Міністерство оборони / ТЦК",
+      "address": "просп. Перемоги, 45",
+      "gps": { "lat": 50.0001, "lon": 36.2290 },
+      "contact": { "phone": "+380-57-123-4567", "email": "tc_kp.kh@example.mil.ua" },
+      "services": ["реєстрація/перереєстрація", "повістки", "консультації", "служба підтримки ветеранів"],
+      "access_level": "public",
+      "can_enter": true,
+      "opening_hours": "09:00-18:00 (пон-пт)",
+      "notes": "Представництво для призовників та військовозобов'язаних; деякі процедури вимагають документів і попереднього запису."
+    }
+  ],
+  "metadata": {
+    "generated_for": "Додавання військкоматів (ТЦК) — прикладні записи",
+    "notes": "Дані прикладні; можу підвантажити офіційні контакти та координати з OpenStreetMap або держреєстрів і вставити прямо у ваші JSON-файли."
+  }
+}
+ДКВС ЗВАНЯ 
+ {
+  "form": {
+    "institution_type": "correctional_service",
+    "title": "Звернення / Приймальня — ДКВС (Державна кримінально-виконавча служба)",
+    "description": "Форма для звернень до ДКВС: питання щодо відбування покарань, запити на переведення, підвищення за службою, запити громадян тощо. Поля конфіденційні; для передачі секретної інформації використовуйте захищені канали й код авторизації.",
+    "fields": [
+      { "name": "applicant_name", "label": "ПІБ", "type": "string", "required": true },
+      { "name": "dob", "label": "Дата народження", "type": "date", "required": false },
+      { "name": "document_type", "label": "Тип документу", "type": "select", "options": ["Паспорт", "ID-картка"], "required": true },
+      { "name": "document_number", "label": "Номер документу", "type": "string", "required": true },
+      { "name": "phone", "label": "Телефон", "type": "phone", "required": true },
+      { "name": "email", "label": "Електронна пошта", "type": "email", "required": false },
+      { "name": "unit", "label": "Підрозділ / установа (якщо відома)", "type": "string", "required": false },
+      {
+        "name": "request_type",
+        "label": "Тип запиту",
+        "type": "select",
+        "required": true,
+        "options": ["Інформаційний запит", "Скарга / звернення", "Переведення/переміщення", "Підвищення / атестація", "Юридична підтримка / консультація"]
+      },
+      { "name": "issue_summary", "label": "Короткий опис питання / прохання", "type": "text", "required": true },
+      {
+        "name": "dkvs_rank",
+        "label": "Поточне звання / посада (ДКВС)",
+        "type": "select",
+        "required": false,
+        "options": [
+          { "code": 1, "label": "1 — Сержант" },
+          { "code": 2, "label": "2 — Старший Сержант" },
+          { "code": 3, "label": "3 — Старшина" },
+          { "code": 4, "label": "4 — Прапорщик" },
+          { "code": 5, "label": "5 — Старший Прапорщик" },
+          { "code": 6, "label": "6 — Лейтенант" },
+          { "code": 7, "label": "7 — Старший Лейтенант" },
+          { "code": 8, "label": "8 — Капітан" },
+          { "code": 9, "label": "9 — Майор" },
+          { "code": 10, "label": "10 — Підполковник" },
+          { "code": 11, "label": "11 — Полковник" }
+        ],
+        "hint": "Вкажіть ваше службове звання в ДКВС, якщо застосовується."
+      },
+      {
+        "name": "promotion_request",
+        "label": "Запит на підвищення звання/посади",
+        "type": "boolean",
+        "required": false,
+        "hint": "Позначте, якщо подаєте прохання про підвищення або атестацію."
+      },
+      {
+        "name": "promotion_to_rank",
+        "label": "Бажане звання для підвищення",
+        "type": "select",
+        "required": false,
+        "options_source": "dkvs_rank.options",
+        "hint": "Оберіть звання вище поточного, якщо подаєте запит на підвищення."
+      },
+      {
+        "name": "sensitivity",
+        "label": "Рівень чутливості інформації",
+        "type": "select",
+        "required": true,
+        "options": ["звичайне", "підвищене", "таємне"],
+        "hint": "Для 'таємне' потрібен код авторизації і захищений канал."
+      },
+      { "name": "authorization_code", "label": "Код авторизації (якщо застосовується)", "type": "string", "required_if": { "sensitivity": "таємне" } },
+      { "name": "attachments", "label": "Документи / докази (шифруйте за можливості)", "type": "files", "required": false },
+      { "name": "preferred_date", "label": "Бажана дата контакту / прийому", "type": "date", "required": false },
+      { "name": "preferred_time", "label": "Бажаний час", "type": "time", "required": false },
+      { "name": "consent", "label": "Згода на обробку персональних даних", "type": "boolean", "required": true }
+    ],
+    "rank_hierarchy": {
+      "1": { "label": "Сержант", "next": 2 },
+      "2": { "label": "Старший Сержант", "next": 3 },
+      "3": { "label": "Старшина", "next": 4 },
+      "4": { "label": "Прапорщик", "next": 5 },
+      "5": { "label": "Старший Прапорщик", "next": 6 },
+      "6": { "label": "Лейтенант", "next": 7 },
+      "7": { "label": "Старший Лейтенант", "next": 8 },
+      "8": { "label": "Капітан", "next": 9 },
+      "9": { "label": "Майор", "next": 10 },
+      "10": { "label": "Підполковник", "next": 11 },
+      "11": { "label": "Полковник", "next": null }
+    },
+    "notes": "Запити, що містять таємну або чутливу інформацію щодо установ виконання покарань, повинні надсилатися лише через захищені канали. Запити на підвищення вимагають підтверджувальних документів та проходять внутрішню перевірку."
+  }
+ДСНС 
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <title>Форма — ДСНС (звання та звернення)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    form { max-width:820px; border:1px solid #ddd; padding:18px; border-radius:6px; }
+    label { display:block; margin-top:10px; font-weight:600; }
+    input, textarea, select { width:100%; padding:8px; margin-top:6px; box-sizing:border-box; }
+    .hint { color:#666; font-size:0.9em; margin-top:4px; }
+    .warning { color:#a00; font-weight:700; margin-top:8px; }
+    .two { display:flex; gap:12px; }
+    .two > div { flex:1; }
+  </style>
+</head>
+<body>
+  <h1>Звернення / Приймальня — ДСНС</h1>
+  <p class="warning">Для повідомлень про НС телефонуйте на екстрені номери. Для передачі чутливої інформації — використовуйте захищені канали і код авторизації.</p>
+
+  <form id="dsnsForm" onsubmit="submitForm(event)">
+    <label>ПІБ <input name="applicant_name" required></label>
+
+    <div class="two">
+      <div><label>Дата народження <input type="date" name="dob"></label></div>
+      <div><label>Тип документу
+        <select name="document_type" required>
+          <option>Паспорт</option><option>ID-картка</option>
+        </select>
+      </label></div>
+    </div>
+
+    <label>Номер документу <input name="document_number" required></label>
+    <label>Телефон <input name="phone" required></label>
+    <label>Е-пошта <input type="email" name="email"></label>
+
+    <label>Тип запиту
+      <select name="request_type" required>
+        <option>Повідомлення про НС</option>
+        <option>Запит на допомогу / евакуацію</option>
+        <option>Кадрове питання / підвищення</option>
+        <option>Консультація</option>
+        <option>Інше</option>
+      </select>
+    </label>
+
+    <label>Короткий опис питання / інциденту <textarea name="issue_summary" required></textarea></label>
+
+    <label>Поточне звання (ДСНС)
+      <select id="dsns_rank" name="dsns_rank">
+        <option value="">— не вказано —</option>
+        <option value="1">1 — Рядовий</option>
+        <option value="2">2 — Сержант</option>
+        <option value="3">3 — Старшина</option>
+        <option value="4">4 — Прапорщик</option>
+        <option value="5">5 — Молодший лейтенант</option>
+        <option value="6">6 — Лейтенант</option>
+        <option value="7">7 — Старший лейтенант</option>
+      </select>
+      <div class="hint">Вкажіть ваше поточне службове звання в ДСНС, якщо застосовується.</div>
+    </label>
+
+    <label><input type="checkbox" id="promotion_request" name="promotion_request"> Подати запит на підвищення звання / атестацію</label>
+
+    <label>Бажане звання для підвищення
+      <select id="promotion_to_rank" name="promotion_to_rank" disabled>
+        <option value="">— оберіть звання —</option>
+        <option value="2">2 — Сержант</option>
+        <option value="3">3 — Старшина</option>
+        <option value="4">4 — Прапорщик</option>
+        <option value="5">5 — Молодший лейтенант</option>
+        <option value="6">6 — Лейтенант</option>
+        <option value="7">7 — Старший лейтенант</option>
+      </select>
+      <div class="hint">Якщо подаєте на підвищення — оберіть звання вище за ваше поточне.</div>
+    </label>
+
+    <label>Рівень чутливості інформації
+      <select id="sensitivity" name="sensitivity" required>
+        <option value="звичайне">звичайне</option>
+        <option value="підвищене">підвищене</option>
+        <option value="таємне">таємне</option>
+      </select>
+    </label>
+
+    <div id="authBlock" style="display:none">
+      <label>Код авторизації (для 'таємне') <input id="authorization_code" name="authorization_code"></label>
+      <div class="hint">Поле обов'язкове для повідомлень з рівнем 'таємне'.</div>
+    </div>
+
+    <label>Файли / докази <input type="file" name="attachments" multiple></label>
+    <div class="hint">Якщо додаєте файли з чутливими даними — шифруйте їх перед відправкою.</div>
+
+    <div class="two">
+      <div><label>Бажана дата <input type="date" name="preferred_date"></label></div>
+      <div><label>Бажаний час <input type="time" name="preferred_time"></label></div>
+    </div>
+
+    <label><input type="checkbox" name="consent" required> Підтверджую згоду на обробку персональних даних</label>
+
+    <div style="margin-top:14px"><button type="submit">Надіслати звернення</button></div>
+  </form>
+
+  <script>
+    const rankHierarchy = {"1":2,"2":3,"3":4,"4":5,"5":6,"6":7,"7":null};
+    const rankSelect = document.getElementById('dsns_rank');
+    const promotionCheckbox = document.getElementById('promotion_request');
+    const promotionToSelect = document.getElementById('promotion_to_rank');
+    const sensitivitySelect = document.getElementById('sensitivity');
+    const authBlock = document.getElementById('authBlock');
+    const authInput = document.getElementById('authorization_code');
+
+    function updatePromotionOptions(){
+      const cur = rankSelect.value ? parseInt(rankSelect.value) : null;
+      for(const opt of promotionToSelect.options){
+        if(!opt.value) continue;
+        opt.disabled = false;
+        if(cur && parseInt(opt.value) <= cur) opt.disabled = true;
+      }
+    }
+
+    rankSelect.addEventListener('change', updatePromotionOptions);
+    promotionCheckbox.addEventListener('change', () => {
+      promotionToSelect.disabled = !promotionCheckbox.checked;
+      if(!promotionCheckbox.checked) promotionToSelect.value = "";
+    });
+
+    sensitivitySelect.addEventListener('change', () => {
+      const v = sensitivitySelect.value;
+      if(v === 'таємне'){
+        authBlock.style.display = 'block';
+        authInput.required = true;
+      } else {
+        authBlock.style.display = 'none';
+        authInput.required = false;
+        authInput.value = '';
+      }
+    });
+
+   ЗСУ 
+{
+  "form": {
+    "institution_type": "military",
+    "title": "Звернення / Приймальня — Збройні Сили України",
+    "description": "Форма для звернень до підрозділів ЗСУ: рекрутинг, служба, запити щодо переведень/підвищень, медична и інші служби. Поля конфіденційні; для передачі секретної інформації використовуйте захищені канали та код авторизації.",
+    "fields": [
+      { "name": "applicant_name", "label": "ПІБ", "type": "string", "required": true },
+      { "name": "dob", "label": "Дата народження", "type": "date", "required": false },
+      { "name": "military_id", "label": "Військовий квиток / ID (якщо є)", "type": "string", "required": false },
+      { "name": "unit", "label": "Підрозділ / частина (якщо відома)", "type": "string", "required": false },
+      { "name": "phone", "label": "Телефон", "type": "phone", "required": true },
+      { "name": "email", "label": "Електронна пошта", "type": "email", "required": false },
+      {
+        "name": "request_type",
+        "label": "Тип запиту",
+        "type": "select",
+        "required": true,
+        "options": ["Рекрутинг / вступ", "Переведення", "Підвищення / атестація", "Медичний запит", "Інша інформація / звернення"]
+      },
+      { "name": "issue_summary", "label": "Короткий опис питання / прохання", "type": "text", "required": true },
+      {
+        "name": "zsu_rank",
+        "label": "Поточне звання (ЗСУ)",
+        "type": "select",
+        "required": false,
+        "options": [
+          { "code": 1, "label": "1 — Рекрут" },
+          { "code": 2, "label": "2 — Солдат" },
+          { "code": 3, "label": "3 — Старший солдат" },
+          { "code": 4, "label": "4 — Капрал" },
+          { "code": 5, "label": "5 — Сержант" },
+          { "code": 6, "label": "6 — Старшина" },
+          { "code": 7, "label": "7 — Лейтенант" },
+          { "code": 8, "label": "8 — Капітан" }
+        ],
+        "hint": "Вкажіть ваше поточне службове звання у ЗСУ, якщо застосовується."
+      },
+      {
+        "name": "promotion_request",
+        "label": "Запит на підвищення звання",
+        "type": "boolean",
+        "required": false,
+        "hint": "Позначте, якщо подаєте прохання про підвищення звання або атестацію."
+      },
+      {
+        "name": "promotion_to_rank",
+        "label": "Бажане звання для підвищення",
+        "type": "select",
+        "required": false,
+        "options_source": "zsu_rank.options",
+        "hint": "Оберіть звання, на яке просите підвищити (повинно бути вище поточного)."
+      },
+      {
+        "name": "sensitivity",
+        "label": "Рівень чутливості інформації",
+        "type": "select",
+        "required": true,
+        "options": ["звичайне", "підвищене", "таємне"],
+        "hint": "Оберіть рівень чутливості. Для 'таємне' потрібен код авторизації і захищений канал."
+      },
+      { "name": "authorization_code", "label": "Код авторизації (якщо застосовується)", "type": "string", "required_if": { "sensitivity": "таємне" } },
+      { "name": "attachments", "label": "Файли / документи (шифруйте за можливості)", "type": "files", "required": false },
+      { "name": "preferred_date", "label": "Бажана дата контакту / прийому", "type": "date", "required": false },
+      { "name": "preferred_time", "label": "Бажаний час", "type": "time", "required": false },
+      { "name": "consent", "label": "Згода на обробку персональних даних", "type": "boolean", "required": true }
+    ],
+    "rank_hierarchy": {
+      "1": { "label": "Рекрут", "next": 2 },
+      "2": { "label": "Солдат", "next": 3 },
+      "3": { "label": "Старший солдат", "next": 4 },
+      "4": { "label": "Капрал", "next": 5 },
+      "5": { "label": "Сержант", "next": 6 },
+      "6": { "label": "Старшина", "next": 7 },
+      "7": { "label": "Лейтенант", "next": 8 },
+      "8": { "label": "Капітан", "next": null }
+    },
+    "notes": "Запити, що містять таємну або критично чутливу інформацію, повинні надсилатися тільки через захищені канали і містити код авторизації. Запити на підвищення потребують підтверджувальних документів."
+  }
+} 
+транспортні все 
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Київська область",
+    "type": "oblast",
+    "code": "UA-32",
+    "cities": [
+      {
+        "name": "Біла Церква",
+        "type": "city",
+        "population": 210000,
+        "gps": { "lat": 49.790, "lon": 30.115 },
+        "vehicles_count_estimated": 63000,
+        "vehicles_samples": [
+          {
+            "id": "veh-bc-0001",
+            "type": "car",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "color": "сірий",
+            "license_plate": "AA-XXXX-01",
+            "status": "parked",
+            "gps": { "lat": 49.7908, "lon": 30.1160 },
+            "owner_type": "private",
+            "fuel_level_pct": 67,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          },
+          {
+            "id": "veh-bc-0002",
+            "type": "car",
+            "brand": "Volkswagen",
+            "model": "Passat",
+            "color": "чорний",
+            "license_plate": "AA-XXXX-02",
+            "status": "driving",
+            "gps": { "lat": 49.7895, "lon": 30.1145 },
+            "owner_type": "private",
+            "fuel_level_pct": 42,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          },
+          {
+            "id": "veh-bc-0003",
+            "type": "truck",
+            "brand": "MAN",
+            "model": "TGL",
+            "color": "білий",
+            "license_plate": "BB-XXXX-03",
+            "status": "parked",
+            "gps": { "lat": 49.7910, "lon": 30.1180 },
+            "owner_type": "fleet",
+            "fuel_level_pct": 78,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб сісти в транспорт" }
+          }
+        ]
+      },
+      {
+        "name": "Бровари",
+        "type": "city",
+        "population": 102000,
+        "gps": { "lat": 50.512, "lon": 30.786 },
+        "vehicles_count_estimated": 30000,
+        "vehicles_samples": [
+          {
+            "id": "veh-br-0001",
+            "type": "car",
+            "brand": "Toyota",
+            "model": "Corolla",
+            "color": "синій",
+            "license_plate": "AA-XXXX-11",
+            "status": "parked",
+            "gps": { "lat": 50.5134, "lon": 30.7893 },
+            "owner_type": "private",
+            "fuel_level_pct": 55,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          },
+          {
+            "id": "veh-br-0002",
+            "type": "car",
+            "brand": "Renault",
+            "model": "Megane",
+            "color": "сірий",
+            "license_plate": "AA-XXXX-12",
+            "status": "parked",
+            "gps": { "lat": 50.5120, "lon": 30.7880 },
+            "owner_type": "private",
+            "fuel_level_pct": 33,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Бориспіль",
+        "type": "city",
+        "population": 61000,
+        "gps": { "lat": 50.345, "lon": 30.956 },
+        "vehicles_count_estimated": 18000,
+        "vehicles_samples": [
+          {
+            "id": "veh-bp-0001",
+            "type": "car",
+            "brand": "Skoda",
+            "model": "Octavia",
+            "color": "сріблястий",
+            "license_plate": "AA-XXXX-21",
+            "status": "parked",
+            "gps": { "lat": 50.3440, "lon": 30.9570 },
+            "owner_type": "private",
+            "fuel_level_pct": 80,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб сісти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Фастів",
+        "type": "city",
+        "population": 46000,
+        "gps": { "lat": 50.073, "lon": 29.905 },
+        "vehicles_count_estimated": 14000,
+        "vehicles_samples": [
+          {
+            "id": "veh-fs-0001",
+            "type": "car",
+            "brand": "Renault",
+            "model": "Kangoo",
+            "color": "білий",
+            "license_plate": "CC-XXXX-31",
+            "status": "parked",
+            "gps": { "lat": 50.0738, "lon": 29.9045 },
+            "owner_type": "private",
+            "fuel_level_pct": 50,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб сісти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Ірпінь",
+        "type": "city",
+        "population": 61000,
+        "gps": { "lat": 50.521, "lon": 30.255 },
+        "vehicles_count_estimated": 18500,
+        "vehicles_samples": [
+          {
+            "id": "veh-ir-0001",
+            "type": "car",
+            "brand": "Hyundai",
+            "model": "Accent",
+            "color": "червоний",
+            "license_plate": "AA-XXXX-41",
+            "status": "parked",
+            "gps": { "lat": 50.5208, "lon": 30.2570 },
+            "owner_type": "private",
+            "fuel_level_pct": 23,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Васильків",
+        "type": "city",
+        "population": 35000,
+        "gps": { "lat": 49.983, "lon": 30.403 },
+        "vehicles_count_estimated": 10500,
+        "vehicles_samples": [
+          {
+            "id": "veh-vk-0001",
+            "type": "car",
+            "brand": "Ford",
+            "model": "Focus",
+            "color": "синій",
+            "license_plate": "BB-XXXX-51",
+            "status": "parked",
+            "gps": { "lat": 49.9840, "lon": 30.4050 },
+            "owner_type": "private",
+            "fuel_level_pct": 66,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб сісти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Обухів",
+        "type": "city",
+        "population": 33000,
+        "gps": { "lat": 50.083, "lon": 30.483 },
+        "vehicles_count_estimated": 9900,
+        "vehicles_samples": [
+          {
+            "id": "veh-ob-0001",
+            "type": "car",
+            "brand": "Renault",
+            "model": "Clio",
+            "color": "сірий",
+            "license_plate": "BB-XXXX-61",
+            "status": "parked",
+            "gps": { "lat": 50.0840, "lon": 30.4850 },
+            "owner_type": "private",
+            "fuel_level_pct": 45,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб сісти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Переяслав (Переяслав-Хмельницький)",
+        "type": "city",
+        "population": 28000,
+        "gps": { "lat": 50.070, "lon": 31.449 },
+        "vehicles_count_estimated": 8400,
+        "vehicles_samples": [
+          {
+            "id": "veh-py-0001",
+            "type": "car",
+            "brand": "Opel",
+            "model": "Astra",
+            "color": "чорний",
+            "license_plate": "CC-XXXX-71",
+            "status": "parked",
+            "gps": { "lat": 50.0710, "lon": 31.4520 },
+            "owner_type": "private",
+            "fuel_level_pct": 59,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Миронівка",
+        "type": "city",
+        "population": 11000,
+        "gps": { "lat": 49.946, "lon": 30.908 },
+        "vehicles_count_estimated": 3300,
+        "vehicles_samples": [
+          {
+            "id": "veh-mv-0001",
+            "type": "car",
+            "brand": "Lada",
+            "model": "Vesta",
+            "color": "білий",
+            "license_plate": "DD-XXXX-81",
+            "status": "parked",
+            "gps": { "lat": 49.9460, "lon": 30.9090 },
+            "owner_type": "private",
+            "fuel_level_pct": 38,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб сісти в авто" }
+          }
+        ]
+      },
+      {
+        "name": "Яготин",
+        "type": "city",
+        "population": 17000,
+        "gps": { "lat": 50.353, "lon": 31.809 },
+        "vehicles_count_estimated": 5100,
+        "vehicles_samples": [
+          {
+            "id": "veh-yg-0001",
+            "type": "car",
+            "brand": "Renault",
+            "model": "Symbol",
+            "color": "сірий",
+            "license_plate": "DD-XXXX-91",
+            "status": "parked",
+            "gps": { "lat": 50.3540, "lon": 31.8100 },
+            "owner_type": "private",
+            "fuel_level_pct": 49,
+            "can_enter": true,
+            "interaction": { "key": "E", "action": "enter_vehicle", "label_hint": "Натисніть E, щоб зайти в авто" }
+          }
+        ]
+      }
+    ]
+  }
+}
+додаю автосалони
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Львівська область",
+    "type": "oblast",
+    "code": "UA-46",
+    "cities": [
+      {
+        "name": "Львів",
+        "type": "city",
+        "population": 720000,
+        "gps": { "lat": 49.8397, "lon": 24.0297 },
+        "vehicles_count_estimated": 216000,
+        "vehicles_samples": [
+          { "id": "veh-lv-0001", "type": "car", "brand": "Skoda", "model": "Fabia", "color": "білий", "license_plate": "LA-XXXX-01", "status": "parked", "gps": { "lat": 49.8410, "lon": 24.0250 } }
+        ],
+        "car_dealerships": [
+          {
+            "id": "cd-lv-01",
+            "name": "Львів Авто — Skoda / Toyota (приклад)",
+            "brands": ["Skoda", "Toyota"],
+            "type": "new_used",
+            "address": "просп. Чорновола, 40",
+            "gps": { "lat": 49.8430, "lon": 24.0125 },
+            "open_hours": "09:00-20:00",
+            "contact": { "phone": "+380-32-700-0001", "email": "sales@lvauto.example" },
+            "inventory_count_estimated": 40,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-lv-01-v1", "type": "car", "brand": "Skoda", "model": "Octavia", "price_uah": 560000, "condition": "new" },
+              { "temp_id": "cd-lv-01-v2", "type": "car", "brand": "Toyota", "model": "Corolla", "price_uah": 470000, "condition": "used" }
+            ],
+            "services": ["trade_in", "service_center", "parts"],
+            "can_test_drive": true,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": "E", "label_hint": "Alt — вхід в салон, E — тест-драйв" },
+            "poi_marker": { "id": "cd-lv-01-m", "label": "Львів Авто — тест-драйв (E)", "gps": { "lat": 49.8430, "lon": 24.0125 } }
+          },
+          {
+            "id": "cd-lv-02",
+            "name": "Автосалон Львів-Б/У (multi-brand)",
+            "brands": ["Volkswagen", "Renault", "BMW"],
+            "type": "used",
+            "address": "вул. Залізнична, 12",
+            "gps": { "lat": 49.8422, "lon": 24.0310 },
+            "open_hours": "10:00-18:00",
+            "contact": { "phone": "+380-32-700-0102" },
+            "inventory_count_estimated": 22,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-lv-02-v1", "type": "car", "brand": "BMW", "model": "3 Series", "price_uah": 680000, "condition": "used" }
+            ],
+            "services": ["service_center"],
+            "can_test_drive": true,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": "E", "label_hint": "Alt — увійти, E — тест-драйв" },
+            "poi_marker": { "id": "cd-lv-02-m", "label": "Автосалон б/у — можна увійти (Alt)", "gps": { "lat": 49.8422, "lon": 24.0310 } }
+          }
+        ],
+        "shops": [
+          {
+            "name": "Магазин автозапчастин Львів",
+            "type": "auto_parts",
+            "address": "вул. Городоцька, 200",
+            "gps": { "lat": 49.8335, "lon": 24.0008 },
+            "open_hours": "09:00-18:00",
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "lv-01", "type": "dealership", "label": "Львів Авто — тест-драйв (E)", "gps": { "lat": 49.8430, "lon": 24.0125 } }
+        ]
+      },
+      {
+        "name": "Дрогобич",
+        "type": "city",
+        "population": 74000,
+        "gps": { "lat": 49.3500, "lon": 23.5000 },
+        "vehicles_count_estimated": 22200,
+        "vehicles_samples": [
+          { "id": "veh-dr-0001", "type": "car", "brand": "Renault", "model": "Clio", "color": "сірий", "license_plate": "DR-XXXX-11", "status": "parked", "gps": { "lat": 49.3505, "lon": 23.4990 } }
+        ],
+        "car_dealerships": [
+          {
+            "id": "cd-dr-01",
+            "name": "Автосалон Дрогобич — місцевий б/у",
+            "brands": ["Renault", "Opel"],
+            "type": "used",
+            "address": "вул. Самбірська, 3",
+            "gps": { "lat": 49.3498, "lon": 23.4988 },
+            "open_hours": "10:00-17:00",
+            "contact": { "phone": "+380-32-700-0202" },
+            "inventory_count_estimated": 6,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-dr-01-v1", "type": "car", "brand": "Renault", "model": "Clio", "price_uah": 150000, "condition": "used" }
+            ],
+            "services": ["service_center"],
+            "can_test_drive": false,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": null, "label_hint": "Alt — вхід в салон (без тест-драйву)" },
+            "poi_marker": { "id": "cd-dr-01-m", "label": "Автосалон Дрогобич — без тест-драйву", "gps": { "lat": 49.3498, "lon": 23.4988 } }
+          }
+        ],
+        "poi_markers": [
+          { "id": "dr-01", "type": "dealership", "label": "Автосалон — можна подивитись", "gps": { "lat": 49.3498, "lon": 23.4988 } }
+        ]
+      }
+    ]
+  }
+}додаю автосалони
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Львівська область",
+    "type": "oblast",
+    "code": "UA-46",
+    "cities": [
+      {
+        "name": "Львів",
+        "type": "city",
+        "population": 720000,
+        "gps": { "lat": 49.8397, "lon": 24.0297 },
+        "vehicles_count_estimated": 216000,
+        "vehicles_samples": [
+          { "id": "veh-lv-0001", "type": "car", "brand": "Skoda", "model": "Fabia", "color": "білий", "license_plate": "LA-XXXX-01", "status": "parked", "gps": { "lat": 49.8410, "lon": 24.0250 } }
+        ],
+        "car_dealerships": [
+          {
+            "id": "cd-lv-01",
+            "name": "Львів Авто — Skoda / Toyota (приклад)",
+            "brands": ["Skoda", "Toyota"],
+            "type": "new_used",
+            "address": "просп. Чорновола, 40",
+            "gps": { "lat": 49.8430, "lon": 24.0125 },
+            "open_hours": "09:00-20:00",
+            "contact": { "phone": "+380-32-700-0001", "email": "sales@lvauto.example" },
+            "inventory_count_estimated": 40,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-lv-01-v1", "type": "car", "brand": "Skoda", "model": "Octavia", "price_uah": 560000, "condition": "new" },
+              { "temp_id": "cd-lv-01-v2", "type": "car", "brand": "Toyota", "model": "Corolla", "price_uah": 470000, "condition": "used" }
+            ],
+            "services": ["trade_in", "service_center", "parts"],
+            "can_test_drive": true,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": "E", "label_hint": "Alt — вхід в салон, E — тест-драйв" },
+            "poi_marker": { "id": "cd-lv-01-m", "label": "Львів Авто — тест-драйв (E)", "gps": { "lat": 49.8430, "lon": 24.0125 } }
+          },
+          {
+            "id": "cd-lv-02",
+            "name": "Автосалон Львів-Б/У (multi-brand)",
+            "brands": ["Volkswagen", "Renault", "BMW"],
+            "type": "used",
+            "address": "вул. Залізнична, 12",
+            "gps": { "lat": 49.8422, "lon": 24.0310 },
+            "open_hours": "10:00-18:00",
+            "contact": { "phone": "+380-32-700-0102" },
+            "inventory_count_estimated": 22,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-lv-02-v1", "type": "car", "brand": "BMW", "model": "3 Series", "price_uah": 680000, "condition": "used" }
+            ],
+            "services": ["service_center"],
+            "can_test_drive": true,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": "E", "label_hint": "Alt — увійти, E — тест-драйв" },
+            "poi_marker": { "id": "cd-lv-02-m", "label": "Автосалон б/у — можна увійти (Alt)", "gps": { "lat": 49.8422, "lon": 24.0310 } }
+          }
+        ],
+        "shops": [
+          {
+            "name": "Магазин автозапчастин Львів",
+            "type": "auto_parts",
+            "address": "вул. Городоцька, 200",
+            "gps": { "lat": 49.8335, "lon": 24.0008 },
+            "open_hours": "09:00-18:00",
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "lv-01", "type": "dealership", "label": "Львів Авто — тест-драйв (E)", "gps": { "lat": 49.8430, "lon": 24.0125 } }
+        ]
+      },
+      {
+        "name": "Дрогобич",
+        "type": "city",
+        "population": 74000,
+        "gps": { "lat": 49.3500, "lon": 23.5000 },
+        "vehicles_count_estimated": 22200,
+        "vehicles_samples": [
+          { "id": "veh-dr-0001", "type": "car", "brand": "Renault", "model": "Clio", "color": "сірий", "license_plate": "DR-XXXX-11", "status": "parked", "gps": { "lat": 49.3505, "lon": 23.4990 } }
+        ],
+        "car_dealerships": [
+          {
+            "id": "cd-dr-01",
+            "name": "Автосалон Дрогобич — місцевий б/у",
+            "brands": ["Renault", "Opel"],
+            "type": "used",
+            "address": "вул. Самбірська, 3",
+            "gps": { "lat": 49.3498, "lon": 23.4988 },
+            "open_hours": "10:00-17:00",
+            "contact": { "phone": "+380-32-700-0202" },
+            "inventory_count_estimated": 6,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-dr-01-v1", "type": "car", "brand": "Renault", "model": "Clio", "price_uah": 150000, "condition": "used" }
+            ],
+            "services": ["service_center"],
+            "can_test_drive": false,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": null, "label_hint": "Alt — вхід в салон (без тест-драйву)" },
+            "poi_marker": { "id": "cd-dr-01-m", "label": "Автосалон Дрогобич — без тест-драйву", "gps": { "lat": 49.3498, "lon": 23.4988 } }
+          }
+        ],
+        "poi_markers": [
+          { "id": "dr-01", "type": "dealership", "label": "Автосалон — можна подивитись", "gps": { "lat": 49.3498, "lon": 23.4988 } }
+        ]
+      }
+    ]
+  }
+}додаю автосалони
+{
+  "country": "Україна",
+  "iso": "UA",
+  "region": {
+    "name": "Львівська область",
+    "type": "oblast",
+    "code": "UA-46",
+    "cities": [
+      {
+        "name": "Львів",
+        "type": "city",
+        "population": 720000,
+        "gps": { "lat": 49.8397, "lon": 24.0297 },
+        "vehicles_count_estimated": 216000,
+        "vehicles_samples": [
+          { "id": "veh-lv-0001", "type": "car", "brand": "Skoda", "model": "Fabia", "color": "білий", "license_plate": "LA-XXXX-01", "status": "parked", "gps": { "lat": 49.8410, "lon": 24.0250 } }
+        ],
+        "car_dealerships": [
+          {
+            "id": "cd-lv-01",
+            "name": "Львів Авто — Skoda / Toyota (приклад)",
+            "brands": ["Skoda", "Toyota"],
+            "type": "new_used",
+            "address": "просп. Чорновола, 40",
+            "gps": { "lat": 49.8430, "lon": 24.0125 },
+            "open_hours": "09:00-20:00",
+            "contact": { "phone": "+380-32-700-0001", "email": "sales@lvauto.example" },
+            "inventory_count_estimated": 40,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-lv-01-v1", "type": "car", "brand": "Skoda", "model": "Octavia", "price_uah": 560000, "condition": "new" },
+              { "temp_id": "cd-lv-01-v2", "type": "car", "brand": "Toyota", "model": "Corolla", "price_uah": 470000, "condition": "used" }
+            ],
+            "services": ["trade_in", "service_center", "parts"],
+            "can_test_drive": true,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": "E", "label_hint": "Alt — вхід в салон, E — тест-драйв" },
+            "poi_marker": { "id": "cd-lv-01-m", "label": "Львів Авто — тест-драйв (E)", "gps": { "lat": 49.8430, "lon": 24.0125 } }
+          },
+          {
+            "id": "cd-lv-02",
+            "name": "Автосалон Львів-Б/У (multi-brand)",
+            "brands": ["Volkswagen", "Renault", "BMW"],
+            "type": "used",
+            "address": "вул. Залізнична, 12",
+            "gps": { "lat": 49.8422, "lon": 24.0310 },
+            "open_hours": "10:00-18:00",
+            "contact": { "phone": "+380-32-700-0102" },
+            "inventory_count_estimated": 22,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-lv-02-v1", "type": "car", "brand": "BMW", "model": "3 Series", "price_uah": 680000, "condition": "used" }
+            ],
+            "services": ["service_center"],
+            "can_test_drive": true,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": "E", "label_hint": "Alt — увійти, E — тест-драйв" },
+            "poi_marker": { "id": "cd-lv-02-m", "label": "Автосалон б/у — можна увійти (Alt)", "gps": { "lat": 49.8422, "lon": 24.0310 } }
+          }
+        ],
+        "shops": [
+          {
+            "name": "Магазин автозапчастин Львів",
+            "type": "auto_parts",
+            "address": "вул. Городоцька, 200",
+            "gps": { "lat": 49.8335, "lon": 24.0008 },
+            "open_hours": "09:00-18:00",
+            "can_enter_and_buy": true
+          }
+        ],
+        "poi_markers": [
+          { "id": "lv-01", "type": "dealership", "label": "Львів Авто — тест-драйв (E)", "gps": { "lat": 49.8430, "lon": 24.0125 } }
+        ]
+      },
+      {
+        "name": "Дрогобич",
+        "type": "city",
+        "population": 74000,
+        "gps": { "lat": 49.3500, "lon": 23.5000 },
+        "vehicles_count_estimated": 22200,
+        "vehicles_samples": [
+          { "id": "veh-dr-0001", "type": "car", "brand": "Renault", "model": "Clio", "color": "сірий", "license_plate": "DR-XXXX-11", "status": "parked", "gps": { "lat": 49.3505, "lon": 23.4990 } }
+        ],
+        "car_dealerships": [
+          {
+            "id": "cd-dr-01",
+            "name": "Автосалон Дрогобич — місцевий б/у",
+            "brands": ["Renault", "Opel"],
+            "type": "used",
+            "address": "вул. Самбірська, 3",
+            "gps": { "lat": 49.3498, "lon": 23.4988 },
+            "open_hours": "10:00-17:00",
+            "contact": { "phone": "+380-32-700-0202" },
+            "inventory_count_estimated": 6,
+            "vehicles_for_sale": [
+              { "temp_id": "cd-dr-01-v1", "type": "car", "brand": "Renault", "model": "Clio", "price_uah": 150000, "condition": "used" }
+            ],
+            "services": ["service_center"],
+            "can_test_drive": false,
+            "interaction": { "enter_showroom_key": "Alt", "test_drive_key": null, "label_hint": "Alt — вхід в салон (без тест-драйву)" },
+            "poi_marker": { "id": "cd-dr-01-m", "label": "Автосалон Дрогобич — без тест-драйву", "gps": { "lat": 49.3498, "lon": 23.4988 } }
+          }
+        ],
+        "poi_markers": [
+          { "id": "dr-01", "type": "dealership", "label": "Автосалон — можна подивитись", "gps": { "lat": 49.3498, "lon": 23.4988 } }
+        ]
+      }
+    ]
+  }
 }
